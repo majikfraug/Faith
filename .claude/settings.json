@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python ad.py:*)",
+      "Bash(python3 ad.py:*)",
+      "Bash(py ad.py:*)",
+      "Bash(.venv/bin/python ad.py:*)",
+      "Bash(.venv/Scripts/python.exe ad.py:*)",
+      "Bash(.venv/Scripts/python ad.py:*)",
+      "Bash(python -m unittest:*)",
+      "Bash(ffprobe:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ]
+  }
+}
