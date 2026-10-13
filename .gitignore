@@ -1,0 +1,17 @@
+# media and generated audio/video never go in git (too big); the cue sheet and drafts do
+media/*
+!media/.gitkeep
+!media/README.md
+work/
+out/
+takes/*
+!takes/.gitkeep
+!takes/README.md
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+Thumbs.db
+*.pkf
+*.sesx~
