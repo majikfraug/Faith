@@ -24,7 +24,7 @@ What the tools do for you:
 5. Then, in order: `/ad-ingest`, `/ad-cues`, `/ad-draft 0:00-5:00`, `/ad-fit`, `/ad-build`, watch `out/review.mp4`.
    Record from `out/recording_script.md`, `/ad-place`, and finally `/ad-build --final`.
 
-`/ad-help` explains the loop; `/ad-status` tells you where you are. The full walkthrough is in `docs/`.
+`/ad-help` explains the loop; `/ad-status` tells you where you are. The beginner setup guide and the full walkthrough are in `docs/`.
 
 ## Without Claude
 
