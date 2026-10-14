@@ -1,0 +1,19 @@
+[
+  {"id": 873, "start": "0:33.5", "end": "0:44.0",
+   "notes": "Title on screen 0:33-0:44; read where it appears. Sits over untranslated Quechua speech (0:27-1:18), which the user has approved describing over: nobody, sighted or not, understands it."},
+  {"new": true, "type": "DESC", "start": "0:23.0", "end": "0:32.5",
+   "line": "From above: dry brown hills, patched with fields and scattered trees.", "status": "drafted",
+   "notes": "Aerial of Andean hills as the quotation fades; over untranslated Quechua speech from 0:27 (user approved)"},
+  {"new": true, "type": "DESC", "start": "0:45.0", "end": "0:53.5",
+   "line": "A wide green valley of patchwork fields, mountains under cloud.", "status": "drafted",
+   "notes": "Aerial 0:45-0:53; over untranslated Quechua speech (user approved)"},
+  {"new": true, "type": "DESC", "start": "0:54.0", "end": "1:05.5",
+   "line": "A sharp green peak rises into mist.", "status": "drafted",
+   "notes": "0:54-1:05; over untranslated Quechua speech (user approved)"},
+  {"new": true, "type": "DESC", "start": "1:06.0", "end": "1:11.5",
+   "line": "Below it, stone terraces and the walls of old ruins.", "status": "drafted",
+   "notes": "1:06-1:11 ruins on the mountainside; not named by the film, so not named here. Over untranslated Quechua speech (user approved)"},
+  {"new": true, "type": "DESC", "start": "1:12.0", "end": "1:14.8",
+   "line": "A llama grazes by a stone wall.", "status": "drafted",
+   "notes": "1:12-1:14; over untranslated Quechua speech (user approved)"}
+]

@@ -25,7 +25,7 @@
     "min_window_s": 1.0,
     "sub_merge_gap_s": 0.3,
     "sub_merge_max_s": 7.0,
-    "sub_lead_s": 0.3
+    "sub_lead_s": 0.8
   },
   "vad": {
     "threshold": 0.5,
@@ -53,7 +53,7 @@
     "subtype": "PCM_16"
   },
   "duck": {
-    "SUB": -14.0,
+    "SUB": -11.0,
     "DESC": -7.0,
     "TEXT": -7.0,
     "ramp_s": 0.25

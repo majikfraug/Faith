@@ -12,11 +12,11 @@
   {
     "new": true,
     "type": "TEXT",
-    "start": "0:23.0",
-    "end": "0:27.2",
+    "start": "0:33.5",
+    "end": "0:44.0",
     "source_text": "THE VOICE OF RÓMULO",
     "line": "Title: The Voice of Rómulo.",
     "status": "drafted",
-    "notes": "Title appears on screen 0:33-0:44 over aerial hills, but 0:27-1:18 is real untranslated speech (user confirmed), so the title is read early, in the last clear seconds before speech starts."
+    "notes": "Title on screen 0:33-0:44; read where it appears. Sits over untranslated Quechua speech (0:27-1:18), which the user has approved describing over. (Was read early at 0:23 before that decision; see drafts_0020-0120.json.)"
   }
 ]
