@@ -1,0 +1,2202 @@
+[
+ {
+  "id": 42,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 43,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 44,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 45,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 46,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 47,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 48,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 49,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 50,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 51,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 52,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 53,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 54,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 55,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 56,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 57,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 58,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 59,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 60,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 70,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 71,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 72,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 73,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 74,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 75,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 76,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 77,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 78,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 99,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 100,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 101,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 102,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 103,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 104,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 105,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 106,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 107,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 109,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 110,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 111,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 112,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 113,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 114,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 116,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 117,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 118,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 120,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 121,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 122,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 124,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 125,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 127,
+  "status": "skip",
+  "notes": "English speech (language check en 0.78); no read needed"
+ },
+ {
+  "id": 128,
+  "status": "skip",
+  "notes": "English speech (language check en 0.78); no read needed"
+ },
+ {
+  "id": 130,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 131,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 132,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 133,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 134,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 135,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 136,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 137,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 138,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 139,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 140,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 141,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 142,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 143,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 170,
+  "status": "skip",
+  "notes": "English speech (language check en 0.83); no read needed"
+ },
+ {
+  "id": 171,
+  "status": "skip",
+  "notes": "English speech (language check en 0.83); no read needed"
+ },
+ {
+  "id": 172,
+  "status": "skip",
+  "notes": "English speech (language check en 0.83); no read needed"
+ },
+ {
+  "id": 173,
+  "status": "skip",
+  "notes": "English speech (language check en 0.83); no read needed"
+ },
+ {
+  "id": 174,
+  "status": "skip",
+  "notes": "English speech (language check en 0.83); no read needed"
+ },
+ {
+  "id": 188,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 190,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 191,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 201,
+  "status": "skip",
+  "notes": "English speech (language check en 0.87); no read needed"
+ },
+ {
+  "id": 202,
+  "status": "skip",
+  "notes": "English speech (language check en 0.87); no read needed"
+ },
+ {
+  "id": 203,
+  "status": "skip",
+  "notes": "English speech (language check en 0.87); no read needed"
+ },
+ {
+  "id": 204,
+  "status": "skip",
+  "notes": "English speech (language check en 0.87); no read needed"
+ },
+ {
+  "id": 205,
+  "status": "skip",
+  "notes": "English speech (language check en 0.87); no read needed"
+ },
+ {
+  "id": 206,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 208,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 209,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 210,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 211,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 212,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 213,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 214,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 215,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 220,
+  "status": "skip",
+  "notes": "English speech (language check en 0.93); no read needed"
+ },
+ {
+  "id": 222,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 223,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 224,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 225,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 226,
+  "status": "skip",
+  "notes": "English speech (language check en 0.74); no read needed"
+ },
+ {
+  "id": 227,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 228,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 229,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 230,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 231,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 232,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 233,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 234,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 235,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 236,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 237,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 238,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 240,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 241,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 242,
+  "status": "skip",
+  "notes": "English speech (language check en 0.94); no read needed"
+ },
+ {
+  "id": 252,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 253,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 254,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 255,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 256,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 257,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 258,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 259,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 260,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 261,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 262,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 263,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 264,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 265,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 266,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 268,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 269,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 270,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 271,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 272,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 273,
+  "status": "skip",
+  "notes": "English speech (language check en 0.87); no read needed"
+ },
+ {
+  "id": 274,
+  "status": "skip",
+  "notes": "English speech (language check en 0.87); no read needed"
+ },
+ {
+  "id": 275,
+  "status": "skip",
+  "notes": "English speech (language check en 0.87); no read needed"
+ },
+ {
+  "id": 276,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 277,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 279,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 280,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 281,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 282,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 283,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 284,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 297,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 298,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 299,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 300,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 301,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 302,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 303,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 304,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 305,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 312,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 313,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 314,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 315,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 316,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 317,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 318,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 319,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 320,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 321,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 322,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 323,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 324,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 326,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 327,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 328,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 329,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 331,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 332,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 333,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 334,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 335,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 336,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 337,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 338,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 339,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 340,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 341,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 342,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 344,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 345,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 346,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 347,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 348,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 349,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 350,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 351,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 362,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 363,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 364,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 365,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 380,
+  "status": "skip",
+  "notes": "English speech (language check en 0.91); no read needed"
+ },
+ {
+  "id": 381,
+  "status": "skip",
+  "notes": "English speech (language check en 0.91); no read needed"
+ },
+ {
+  "id": 382,
+  "status": "skip",
+  "notes": "English speech (language check en 0.91); no read needed"
+ },
+ {
+  "id": 384,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 385,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 386,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 387,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 440,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 441,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 442,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 443,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 444,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 445,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 446,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 447,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 448,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 449,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 451,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 452,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 453,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 454,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 455,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 456,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 457,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 462,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 464,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 465,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 466,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 467,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 468,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 469,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 470,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 471,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 472,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 473,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 474,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 475,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 476,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 477,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 478,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 562,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 563,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 564,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 566,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 567,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 568,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 569,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 570,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 571,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 572,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 574,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 575,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 576,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 577,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 578,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 579,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 580,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 581,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 582,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 583,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 584,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 585,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 586,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 587,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 589,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 590,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 591,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 592,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 593,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 594,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 595,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 596,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 597,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 598,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 599,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 600,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 601,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 602,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 603,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 605,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 606,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 607,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 608,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 609,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 610,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 611,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 612,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 613,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 623,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 624,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 625,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 626,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 627,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 628,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 629,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 631,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 632,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 633,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 634,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 635,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 636,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 637,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 638,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 639,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 640,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 641,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 642,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 643,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 644,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 645,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 647,
+  "status": "skip",
+  "notes": "English speech (language check en 0.73); no read needed"
+ },
+ {
+  "id": 648,
+  "status": "skip",
+  "notes": "English speech (language check en 0.73); no read needed"
+ },
+ {
+  "id": 649,
+  "status": "skip",
+  "notes": "English speech (language check en 0.73); no read needed"
+ },
+ {
+  "id": 650,
+  "status": "skip",
+  "notes": "English speech (language check en 0.78); no read needed"
+ },
+ {
+  "id": 651,
+  "status": "skip",
+  "notes": "English speech (language check en 0.78); no read needed"
+ },
+ {
+  "id": 652,
+  "status": "skip",
+  "notes": "English speech (language check en 0.78); no read needed"
+ },
+ {
+  "id": 675,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 676,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 677,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 678,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 679,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 680,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 681,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 682,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 684,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 685,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 686,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 687,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 689,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 690,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 691,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 692,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 693,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 694,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 695,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 696,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 712,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 713,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 714,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 715,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 716,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 718,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 719,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 720,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 721,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 722,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 723,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 724,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 725,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 726,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 728,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 729,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 730,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 732,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 733,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 734,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 735,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 736,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 738,
+  "status": "skip",
+  "notes": "English speech (language check en 0.93); no read needed"
+ },
+ {
+  "id": 739,
+  "status": "skip",
+  "notes": "English speech (language check en 0.93); no read needed"
+ },
+ {
+  "id": 740,
+  "status": "skip",
+  "notes": "English speech (language check en 0.93); no read needed"
+ },
+ {
+  "id": 746,
+  "status": "skip",
+  "notes": "English speech (language check en 0.88); no read needed"
+ },
+ {
+  "id": 747,
+  "status": "skip",
+  "notes": "English speech (language check en 0.88); no read needed"
+ },
+ {
+  "id": 759,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 761,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 762,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 763,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 764,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 765,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 766,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 768,
+  "status": "skip",
+  "notes": "English speech (language check en 0.93); no read needed"
+ },
+ {
+  "id": 769,
+  "status": "skip",
+  "notes": "English speech (language check en 0.93); no read needed"
+ },
+ {
+  "id": 771,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 772,
+  "status": "skip",
+  "notes": "English speech (language check en 0.95); no read needed"
+ },
+ {
+  "id": 774,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 775,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 776,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 778,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 779,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 780,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 782,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 783,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 785,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 786,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 787,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 788,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 789,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 790,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 792,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 793,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 794,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 795,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 796,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 797,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 799,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 800,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 802,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 803,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 804,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 805,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 806,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 807,
+  "status": "skip",
+  "notes": "English speech (language check en 0.92); no read needed"
+ },
+ {
+  "id": 808,
+  "status": "skip",
+  "notes": "English speech (language check en 0.92); no read needed"
+ },
+ {
+  "id": 809,
+  "status": "skip",
+  "notes": "English speech (language check en 0.92); no read needed"
+ },
+ {
+  "id": 810,
+  "status": "skip",
+  "notes": "English speech (language check en 0.92); no read needed"
+ },
+ {
+  "id": 811,
+  "status": "skip",
+  "notes": "English speech (language check en 0.92); no read needed"
+ },
+ {
+  "id": 812,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 813,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 814,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 815,
+  "status": "skip",
+  "notes": "English speech (language check en 0.97); no read needed"
+ },
+ {
+  "id": 817,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 818,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 819,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 821,
+  "status": "skip",
+  "notes": "English speech (language check en 0.74); no read needed"
+ },
+ {
+  "id": 822,
+  "status": "skip",
+  "notes": "English speech (language check en 0.74); no read needed"
+ },
+ {
+  "id": 823,
+  "status": "skip",
+  "notes": "English speech (language check en 0.74); no read needed"
+ },
+ {
+  "id": 824,
+  "status": "skip",
+  "notes": "English speech (language check en 0.74); no read needed"
+ },
+ {
+  "id": 825,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 826,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 827,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 829,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 830,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 832,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 833,
+  "status": "skip",
+  "notes": "English speech (language check en 0.96); no read needed"
+ },
+ {
+  "id": 834,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 835,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 836,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 837,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 838,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 839,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 840,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 841,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 842,
+  "status": "skip",
+  "notes": "English speech (language check en 1.00); no read needed"
+ },
+ {
+  "id": 844,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 845,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 846,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 848,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 849,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ },
+ {
+  "id": 850,
+  "status": "skip",
+  "notes": "English speech (language check en 0.91); no read needed"
+ },
+ {
+  "id": 852,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 853,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 854,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 855,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 857,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 858,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 859,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 860,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 861,
+  "status": "skip",
+  "notes": "English speech (language check en 0.99); no read needed"
+ },
+ {
+  "id": 862,
+  "status": "skip",
+  "notes": "English speech (language check en 0.98); no read needed"
+ }
+]

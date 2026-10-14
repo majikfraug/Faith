@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "type": "TEXT",
+    "start": "0:02.0",
+    "end": "0:22.0",
+    "source_text": "WE HAVE LOST MANY LIVES, WE'VE MADE MANY SACRIFICES, AND THE CHURCH HAS GROWN COLD. THE GOSPEL IS CAUGHT BETWEEN THE SWORD AND A WALL. BUT WE HAVE A TREMENDOUS OPPORTUNITY TO SHARE THE GOSPEL WITH OUR OWN PEOPLE. - RÓMULO SAUÑE",
+    "line": "Text on screen: We have lost many lives, we've made many sacrifices, and the church has grown cold. The gospel is caught between the sword and a wall. But we have a tremendous opportunity to share the gospel with our own people. Rómulo Sauñe.",
+    "status": "drafted",
+    "notes": "Opening quotation on black; lines fade in at about 0:02, 0:06, 0:12, name at 0:18; fades out over aerial hills by 0:26."
+  },
+  {
+    "new": true,
+    "type": "TEXT",
+    "start": "0:23.0",
+    "end": "0:27.2",
+    "source_text": "THE VOICE OF RÓMULO",
+    "line": "Title: The Voice of Rómulo.",
+    "status": "drafted",
+    "notes": "Title appears on screen 0:33-0:44 over aerial hills, but 0:27-1:18 is real untranslated speech (user confirmed), so the title is read early, in the last clear seconds before speech starts."
+  }
+]

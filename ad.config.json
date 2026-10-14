@@ -1,0 +1,74 @@
+{
+  "project_name": "The Voice of Romulo",
+  "media": {
+    "video": "",
+    "audio": "",
+    "dialogue": "media/TVoR DIA 082026.wav",
+    "subtitles": ""
+  },
+  "paths": {
+    "media": "media",
+    "work": "work",
+    "out": "out",
+    "takes": "takes",
+    "project": "project"
+  },
+  "ffmpeg": {
+    "ffmpeg": "",
+    "ffprobe": ""
+  },
+  "timing": {
+    "wps": 2.5,
+    "min_gap_s": 1.2,
+    "pad_in_s": 0.2,
+    "pad_out_s": 0.3,
+    "min_window_s": 1.0,
+    "sub_merge_gap_s": 0.3,
+    "sub_merge_max_s": 7.0,
+    "sub_lead_s": 0.3
+  },
+  "vad": {
+    "threshold": 0.5,
+    "min_speech_ms": 250,
+    "min_silence_ms": 300,
+    "pad_ms": 100,
+    "merge_gap_s": 0.35
+  },
+  "tts": {
+    "engine": "auto",
+    "voice": "en-US-AriaNeural",
+    "rate": "+0%",
+    "sapi_voice": "",
+    "sapi_rate": 0,
+    "say_voice": "Samantha",
+    "say_rate": 175,
+    "espeak_voice": "en-us",
+    "espeak_rate": 160
+  },
+  "audio": {
+    "sr": 48000,
+    "channels": 2,
+    "voice_rms_db": -20.0,
+    "voice_peak_db": -3.0,
+    "subtype": "PCM_16"
+  },
+  "duck": {
+    "SUB": -14.0,
+    "DESC": -7.0,
+    "TEXT": -7.0,
+    "ramp_s": 0.25
+  },
+  "frames": {
+    "storyboard_interval_s": 3.0,
+    "thumb_width": 320,
+    "cue_width": 480,
+    "sheet_cols": 4,
+    "sheet_rows": 5,
+    "max_storyboard_frames": 400
+  },
+  "takes": {
+    "split_silence_s": 1.0,
+    "split_threshold_db": -40.0,
+    "min_take_s": 0.3
+  }
+}
