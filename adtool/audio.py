@@ -149,10 +149,13 @@ def build_gain_grid(total_s: float, spans: Sequence[Tuple[float, float, float]],
 
 def render(total_s: float, sr: int, channels: int, placements: Sequence[Dict], out_path: Path,
            background: Optional[Path] = None, duck_spans: Optional[Sequence[Tuple[float, float, float]]] = None,
-           ramp_s: float = 0.25, subtype: str = "PCM_16", block_s: float = 10.0) -> Dict:
-    """Write a timeline: optional background (ducked) plus clips placed at their start times.
+           ramp_s: float = 0.25, subtype: str = "PCM_16", block_s: float = 10.0,
+           backgrounds: Optional[Sequence[Dict]] = None) -> Dict:
+    """Write a timeline: background layers (each ducked on its own) plus clips placed at their start times.
 
     placements: dicts with keys start (s), path (wav at project sr), gain (linear, default 1.0).
+    backgrounds: dicts with keys path (wav at project sr), duck_spans (optional list of (start, end, depth_db)),
+    gain (linear, default 1.0). `background` + `duck_spans` is the one-layer shorthand.
     """
     total_frames = int(round(total_s * sr))
     clips = []
@@ -165,18 +168,20 @@ def render(total_s: float, sr: int, channels: int, placements: Sequence[Dict], o
         clips.append((start, start + len(mono), mono))
     clips.sort(key=lambda c: c[0])
 
-    bg = None
-    bg_channels = 0
+    layer_specs = list(backgrounds or [])
     if background is not None:
-        bg = sf.SoundFile(str(background), "r")
-        if bg.samplerate != sr:
-            bg.close()
-            raise AudioError(f"background is {bg.samplerate} Hz, expected {sr} Hz")
-        bg_channels = bg.channels
-
-    grid = None
-    if bg is not None and duck_spans:
-        grid = build_gain_grid(total_s, duck_spans, ramp_s)
+        layer_specs.insert(0, {"path": background, "duck_spans": duck_spans})
+    layers = []  # (file, channels, gain grid or None, gain)
+    for spec in layer_specs:
+        f = sf.SoundFile(str(spec["path"]), "r")
+        if f.samplerate != sr:
+            for g in layers:
+                g[0].close()
+            f.close()
+            raise AudioError(f"{spec['path']} is {f.samplerate} Hz, expected {sr} Hz")
+        spans = spec.get("duck_spans")
+        grid = build_gain_grid(total_s, spans, ramp_s) if spans else None
+        layers.append((f, f.channels, grid, float(spec.get("gain", 1.0))))
 
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -188,20 +193,23 @@ def render(total_s: float, sr: int, channels: int, placements: Sequence[Dict], o
         while pos < total_frames:
             n = min(block_len, total_frames - pos)
             block = np.zeros((n, channels), dtype=np.float32)
-            if bg is not None:
-                chunk = bg.read(n, dtype="float32", always_2d=True)
+            for f, f_channels, grid, gain in layers:
+                chunk = f.read(n, dtype="float32", always_2d=True)
                 if len(chunk) < n:
-                    chunk = np.vstack([chunk, np.zeros((n - len(chunk), bg_channels), dtype=np.float32)])
-                if bg_channels == channels:
-                    block += chunk
-                elif bg_channels == 1:
-                    block += np.repeat(chunk, channels, axis=1)
+                    chunk = np.vstack([chunk, np.zeros((n - len(chunk), f_channels), dtype=np.float32)])
+                if f_channels == channels:
+                    layer = chunk
+                elif f_channels == 1:
+                    layer = np.repeat(chunk, channels, axis=1)
                 else:
-                    block += np.repeat(chunk.mean(axis=1, keepdims=True), channels, axis=1)
+                    layer = np.repeat(chunk.mean(axis=1, keepdims=True), channels, axis=1)
+                if gain != 1.0:
+                    layer = layer * gain
                 if grid is not None:
                     times = (pos + np.arange(n, dtype=np.float64)) / sr
                     g = np.interp(times, grid[0], grid[1]).astype(np.float32)
-                    block *= g[:, None]
+                    layer = layer * g[:, None]
+                block += layer
             for c_start, c_end, mono in clips:
                 if c_end <= pos:
                     continue
@@ -218,6 +226,6 @@ def render(total_s: float, sr: int, channels: int, placements: Sequence[Dict], o
                 np.clip(block, -1.0, 1.0, out=block)
             out.write(block)
             pos += n
-    if bg is not None:
-        bg.close()
+    for f, _, _, _ in layers:
+        f.close()
     return {"frames": total_frames, "clipped_samples": clipped, "peak_db": round(gain_to_db(peak), 2) if peak > 0 else -100.0}

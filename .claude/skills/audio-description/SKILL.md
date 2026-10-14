@@ -100,7 +100,10 @@ to drop into an Audition multitrack session at 0:00, `out/markers_audition.csv` 
 panel (if Audition refuses it, export two markers from Audition and rebuild with `--like <that file>`), and
 `out/mix_review.wav` (original ducked under the voice). `python ad.py build --final --no-tts` writes
 `out/final/youtube_descriptive_audio.wav` and `.m4a` for YouTube Studio → Languages → add audio track.
-Ducking depth per type is in `ad.config.json` under `duck`.
+Ducking depth per type is in `ad.config.json` under `duck`. When `media/` holds a dialogue stem and a music stem
+(effects optional; recognised by DIA/MX/FX or dialogue/music/effects in the file name), the build mixes from the
+stems: only the dialogue is ducked under reads, music and effects pass through (dip them with `duck.MUSIC`, 0 by
+default). Without stems the film's full mix is ducked under every read.
 
 ## Working with the user
 

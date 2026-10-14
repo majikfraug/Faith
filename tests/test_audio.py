@@ -55,5 +55,29 @@ class AudioTests(unittest.TestCase):
             self.assertAlmostEqual(during, np.sqrt(0.05 ** 2 / 2 + 0.2 ** 2 / 2), delta=0.01)
 
 
+    def test_render_stems_duck_independently(self):
+        sr = self.sr
+        with tempfile.TemporaryDirectory() as td:
+            td = Path(td)
+            dialogue = td / "dialogue.wav"
+            A.write(dialogue, np.stack([tone(sr, 10.0, 0.5)] * 2, axis=1), sr)
+            music = td / "music.wav"
+            A.write(music, tone(sr, 10.0, 0.3, 660.0), sr)  # mono: must be spread to both channels
+            clip = td / "clip.wav"
+            A.write(clip, tone(sr, 1.0, 0.2, 880.0), sr)
+            out = td / "mix.wav"
+            stats = A.render(10.0, sr, 2, [{"start": 4.0, "path": clip}], out, ramp_s=0.1,
+                             backgrounds=[{"path": dialogue, "duck_spans": [(4.0, 5.0, -20.0)]},
+                                          {"path": music}])
+            data, _ = A.read(out)
+            self.assertEqual(stats["clipped_samples"], 0)
+            rms = lambda a, b, c=0: np.sqrt(np.mean(data[int(a * sr):int(b * sr), c] ** 2))
+            # uncorrelated tones add in power
+            self.assertAlmostEqual(rms(2.0, 3.0), np.sqrt((0.5 ** 2 + 0.3 ** 2) / 2), delta=0.01)
+            self.assertAlmostEqual(rms(2.0, 3.0, 1), rms(2.0, 3.0, 0), delta=0.001)
+            # during the clip only the dialogue layer is ducked (0.5 -> 0.05); music stays at 0.3
+            self.assertAlmostEqual(rms(4.2, 4.8), np.sqrt((0.05 ** 2 + 0.3 ** 2 + 0.2 ** 2) / 2), delta=0.01)
+
+
 if __name__ == "__main__":
     unittest.main()

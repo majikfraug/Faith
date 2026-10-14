@@ -11,7 +11,8 @@ What the tools do for you:
 - compute how many words fit in each gap, and measure each draft line with a synthetic voice;
 - pull frames so Claude can look at the picture and draft description lines for you to correct;
 - place the narration on a film-length timeline, duck the original underneath, and write a review video,
-  an Audition marker file, a recording script and, at the end, the YouTube track.
+  an Audition marker file, a recording script and, at the end, the YouTube track;
+- if you have stems (dialogue, music, effects), mix from them so only the dialogue is ducked under the reads.
 
 ## Quick start
 
@@ -20,7 +21,9 @@ What the tools do for you:
    (VS Code extension or the `claude` command line).
 2. Get this repository: `git clone <repo url>` or GitHub Desktop, or Download ZIP.
 3. Open the folder in VS Code and start Claude Code. Type `/ad-setup` and follow along.
-4. Put the film and its `.srt` (or `.vtt`) in `media/`.
+4. Put the film and its `.srt` (or `.vtt`) in `media/`. If you have stems, add them too, with the kind in the
+   file name (`DIA`/`dialogue`, `MX`/`music`, `FX`/`effects`): the dialogue stem sharpens voice detection, and
+   with a music stem the build keeps music and effects clean under the narration.
 5. Then, in order: `/ad-ingest`, `/ad-cues`, `/ad-draft 0:00-5:00`, `/ad-fit`, `/ad-build`, watch `out/review.mp4`.
    Record from `out/recording_script.md`, `/ad-place`, and finally `/ad-build --final`.
 

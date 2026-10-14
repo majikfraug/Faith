@@ -53,6 +53,19 @@ def ensure_mix_audio(cfg: Config) -> Path:
     return dst
 
 
+def ensure_stem_audio(cfg: Config, key: str) -> Path:
+    """Convert the dialogue/music/effects stem to the project rate and channel count (cached in work/audio)."""
+    src = cfg.media_files()[key]
+    if src is None:
+        raise SystemExit(f"no {key} stem found: put it in media/ or set media.{key} in ad.config.json")
+    sr = int(cfg.get("audio", "sr", default=48000))
+    ch = int(cfg.get("audio", "channels", default=2))
+    dst = cfg.work / "audio" / f"{key}_{sr}.wav"
+    if not _newer(dst, src):
+        convert_audio(src, dst, sr, ch, cfg)
+    return dst
+
+
 def merge_segments(segs: List[Tuple[float, float]], gap: float) -> List[Tuple[float, float]]:
     segs = sorted((float(a), float(b)) for a, b in segs if b > a)
     out: List[List[float]] = []

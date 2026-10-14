@@ -22,8 +22,9 @@ for them to approve.
 - `adtool/`: the Python package (timecodes, subtitles, speech map, cues, frames, TTS, audio, build, takes).
 - `project/cues.csv`: the cue sheet, the single source of truth. `project/glossary.md`: names and pronunciations.
   `project/drafts/`: the JSON files you write when drafting. These are committed to git.
-- `media/` (the film and subtitles), `work/` (analysis, frames, TTS cache), `out/` (deliverables), `takes/`
-  (recordings): large or regenerable, not in git.
+- `media/` (the film, subtitles and any stems: a file name containing DIA/dialogue, MX/music or FX/effects is
+  picked up as that stem; with dialogue + music stems the build ducks only the dialogue), `work/` (analysis,
+  frames, TTS cache), `out/` (deliverables), `takes/` (recordings): large or regenerable, not in git.
 - `ad.config.json`: timing, voice, ducking and path settings. `tests/`: unit tests and an end-to-end smoke test.
 
 ## Rules

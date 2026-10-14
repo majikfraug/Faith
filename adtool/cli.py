@@ -72,7 +72,7 @@ def cmd_doctor(args) -> int:
     else:
         _warn("no TTS engine available: fit checks will use word-rate estimates only")
     media = cfg.media_files()
-    for key in ("video", "subtitles", "audio", "dialogue"):
+    for key in ("video", "subtitles", "audio", "dialogue", "music", "effects"):
         p = media[key]
         if p is not None:
             _ok(f"{key}: {cfg.rel(p)}")

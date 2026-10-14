@@ -19,6 +19,7 @@ Claude updates this while drafting; correct anything that is wrong.
 | Runa Simi | 3:21 title card "In partnership with Runa Simi" | Partner organisation; Quechua for "people's language". Say ROO-nah SEE-mee — user to confirm |
 | Peru / the Andes / Quechua | Spoken by the preacher at 1:38 ("ethnic groups in Peru") and Morgan Jackson at 4:05 | Not shown as text; usable in descriptions from 1:38 on |
 | Ayacucho | 3:27, on the cassette-set label "Quechua de Ayacucho" | Region of Peru. Say ah-yah-KOO-choh |
+| Cassette player (archive) | 4:00, old photo of a smiling man in a flowered shirt holding one | The 1990s-era device in archive stills is a cassette player, not a Proclaimer (user confirmed). Cassettes = the old technology; Proclaimer = the modern one. |
 | **Proclaimer** | 1:21 (the preacher holds one); 2:06 on the grass; boxed ones handed out at 2:12; seen throughout | FCBH's audio Bible player: a small black box with a speaker grille and buttons. **Always call it "a Proclaimer"** — never "speaker", "loudspeaker", "audio player" or "device" (user instruction, 2026-10-14). |
 
 ## Scripture references and recurring text

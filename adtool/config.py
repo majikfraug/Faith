@@ -4,6 +4,7 @@ from __future__ import annotations
 import copy
 import json
 import os
+import re
 from pathlib import Path
 from typing import Any, Dict, Optional
 
@@ -13,6 +14,17 @@ VIDEO_EXT = {".mp4", ".mov", ".mkv", ".m4v", ".avi", ".mxf", ".webm", ".mpg", ".
 AUDIO_EXT = {".wav", ".aif", ".aiff", ".flac", ".mp3", ".m4a", ".aac", ".ogg"}
 SUB_EXT = {".srt", ".vtt"}
 
+# Words in an audio file's name that mark it as a stem (matched as whole words, case-insensitive).
+STEM_WORDS = {
+    "dialogue": {"dialogue", "dialog", "dia", "dx", "vo"},
+    "music": {"music", "mus", "mx", "score"},
+    "effects": {"effects", "effect", "fx", "sfx", "efx"},
+}
+
+
+def _name_tokens(stem: str) -> set:
+    return {t for t in re.split(r"[\s_\-.()\[\]]+", stem.lower()) if t}
+
 DEFAULTS: Dict[str, Any] = {
     "project_name": "Film",
     "media": {
@@ -20,6 +32,8 @@ DEFAULTS: Dict[str, Any] = {
         "video": "",        # the finished film (video with its soundtrack)
         "audio": "",        # optional: a separate full-mix audio file to use instead of the video's audio
         "dialogue": "",     # optional: a dialogue-only stem; makes the speech map much more accurate
+        "music": "",        # optional: music stem. With dialogue + music (+ effects) the build mixes from
+        "effects": "",      #   stems: only the dialogue is ducked under reads; music and effects stay clean
         "subtitles": "",    # .srt or .vtt
     },
     "paths": {"media": "media", "work": "work", "out": "out", "takes": "takes", "project": "project"},
@@ -52,8 +66,13 @@ DEFAULTS: Dict[str, Any] = {
         "espeak_voice": "en-us",
         "espeak_rate": 160,
     },
-    "audio": {"sr": 48000, "channels": 2, "voice_rms_db": -20.0, "voice_peak_db": -3.0, "subtype": "PCM_16"},
-    "duck": {"SUB": -14.0, "DESC": -7.0, "TEXT": -7.0, "ramp_s": 0.25},
+    # stems_gain_db: trim applied to every stem when mixing from stems (a film master is usually limited,
+    # so the raw stems can sum a little hotter than the finished mix).
+    "audio": {"sr": 48000, "channels": 2, "voice_rms_db": -20.0, "voice_peak_db": -3.0, "subtype": "PCM_16",
+              "stems_gain_db": 0.0},
+    # SUB/DESC/TEXT: how far the original (or, with stems, the dialogue stem) drops under each kind of line.
+    # MUSIC: with stems, how far music and effects drop under any line (0 = untouched).
+    "duck": {"SUB": -14.0, "DESC": -7.0, "TEXT": -7.0, "MUSIC": 0.0, "ramp_s": 0.25},
     "frames": {"storyboard_interval_s": 3.0, "thumb_width": 320, "cue_width": 480, "sheet_cols": 4, "sheet_rows": 5, "max_storyboard_frames": 400},
     "takes": {"split_silence_s": 1.0, "split_threshold_db": -40.0, "min_take_s": 0.3},
 }
@@ -125,7 +144,8 @@ class Config:
     # --- media detection ------------------------------------------------
     def media_files(self) -> Dict[str, Optional[Path]]:
         media_dir = self.root / self.get("paths", "media", default="media")
-        found: Dict[str, Optional[Path]] = {"video": None, "audio": None, "dialogue": None, "subtitles": None}
+        found: Dict[str, Optional[Path]] = {"video": None, "audio": None, "dialogue": None, "music": None,
+                                            "effects": None, "subtitles": None}
         for key in found:
             configured = self.get("media", key, default="")
             if configured:
@@ -133,20 +153,25 @@ class Config:
                 found[key] = p if p.exists() else None
         if media_dir.exists():
             files = sorted(p for p in media_dir.iterdir() if p.is_file())
+            audio = [p for p in files if p.suffix.lower() in AUDIO_EXT]
+            # Stems are recognised by a word in the file name: "TVoR DIA.wav", "film_music.wav", "mix FX.wav".
+            for key, words in STEM_WORDS.items():
+                if found[key] is None:
+                    hits = [p for p in audio if words & _name_tokens(p.stem)
+                            or (key == "dialogue" and "dialog" in p.stem.lower())]
+                    if hits:
+                        found[key] = hits[0]
+            stems = {found[k] for k in STEM_WORDS if found[k] is not None}
             if found["video"] is None:
                 vids = [p for p in files if p.suffix.lower() in VIDEO_EXT]
                 if not vids:
-                    vids = [p for p in files if p.suffix.lower() in AUDIO_EXT and "dialog" not in p.stem.lower()]
+                    vids = [p for p in audio if p not in stems]
                 if vids:
                     found["video"] = vids[0]
             if found["subtitles"] is None:
                 subs = [p for p in files if p.suffix.lower() in SUB_EXT]
                 if subs:
                     found["subtitles"] = subs[0]
-            if found["dialogue"] is None:
-                dlg = [p for p in files if p.suffix.lower() in AUDIO_EXT and "dialog" in p.stem.lower()]
-                if dlg:
-                    found["dialogue"] = dlg[0]
         return found
 
     def save(self) -> Path:

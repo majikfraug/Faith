@@ -4,6 +4,8 @@
     "video": "",
     "audio": "",
     "dialogue": "media/TVoR DIA 082026.wav",
+    "music": "media/TVoR MUS 082026.wav",
+    "effects": "media/TVoR SFX 082026.wav",
     "subtitles": ""
   },
   "paths": {
@@ -18,7 +20,7 @@
     "ffprobe": ""
   },
   "timing": {
-    "wps": 2.5,
+    "wps": 2.6,
     "min_gap_s": 1.2,
     "pad_in_s": 0.2,
     "pad_out_s": 0.3,
@@ -50,13 +52,15 @@
     "channels": 2,
     "voice_rms_db": -20.0,
     "voice_peak_db": -3.0,
-    "subtype": "PCM_16"
+    "subtype": "PCM_16",
+    "stems_gain_db": -3.5
   },
   "duck": {
     "SUB": -11.0,
     "DESC": -7.0,
     "TEXT": -7.0,
-    "ramp_s": 0.25
+    "MUSIC": 0.0,
+    "ramp_s": 0.5
   },
   "frames": {
     "storyboard_interval_s": 3.0,

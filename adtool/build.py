@@ -11,7 +11,7 @@ from .cues import CueSheet
 from .markers import write_audition
 from .media import encode_aac, mux_review, probe
 from .report import recording_script
-from .speech import ensure_mix_audio
+from .speech import ensure_mix_audio, ensure_stem_audio
 from .timecode import fmt_short
 
 
@@ -25,6 +25,12 @@ def build(cfg: Config, sheet: CueSheet, final: bool = False, allow_tts: bool = T
 
     mix_src = ensure_mix_audio(cfg)
     total_s = A.duration(mix_src)
+    # With a dialogue stem and a music stem (effects optional) the mix is built from stems: only the dialogue
+    # is ducked under the reads, so music and effects never pump. Otherwise the film's full mix is ducked.
+    media = cfg.media_files()
+    stems: Dict[str, Path] = {}
+    if media["dialogue"] is not None and media["music"] is not None:
+        stems = {k: ensure_stem_audio(cfg, k) for k in ("dialogue", "music", "effects") if media[k] is not None}
 
     placements: List[Dict] = []
     duck_spans: List[Tuple[float, float, float]] = []
@@ -69,10 +75,20 @@ def build(cfg: Config, sheet: CueSheet, final: bool = False, allow_tts: bool = T
         mix = mix_dir / "youtube_descriptive_audio.wav"
     else:
         mix = out / "mix_review.wav"
-    stats_mix = A.render(total_s, sr, ch, placements, mix, background=mix_src, duck_spans=duck_spans,
-                         ramp_s=float(duck.get("ramp_s", 0.25)), subtype=subtype)
+    ramp = float(duck.get("ramp_s", 0.25))
+    if stems:
+        music_db = float(duck.get("MUSIC", 0.0))
+        bed_spans = [(a, b, music_db) for a, b, _ in duck_spans] if music_db < 0 else None
+        gain = A.db_to_gain(float(cfg.get("audio", "stems_gain_db", default=0.0)))
+        layers = [{"path": stems["dialogue"], "duck_spans": duck_spans, "gain": gain}]
+        layers += [{"path": stems[k], "duck_spans": bed_spans, "gain": gain} for k in ("music", "effects") if k in stems]
+        stats_mix = A.render(total_s, sr, ch, placements, mix, backgrounds=layers, ramp_s=ramp, subtype=subtype)
+    else:
+        stats_mix = A.render(total_s, sr, ch, placements, mix, background=mix_src, duck_spans=duck_spans,
+                             ramp_s=ramp, subtype=subtype)
     results: Dict = {"stem": stem, "mix": mix, "takes": takes_used, "tts": tts_used, "missing": missing,
-                     "collisions": collisions, "clipped": stats_mix["clipped_samples"], "peak_db": stats_mix["peak_db"]}
+                     "collisions": collisions, "clipped": stats_mix["clipped_samples"], "peak_db": stats_mix["peak_db"],
+                     "stems": sorted(stems)}
     if final:
         results["m4a"] = encode_aac(mix, mix.with_suffix(".m4a"), cfg)
 
@@ -88,7 +104,14 @@ def build(cfg: Config, sheet: CueSheet, final: bool = False, allow_tts: bool = T
     (out / "script.md").write_text(sheet.script_markdown(), encoding="utf-8")
     (out / "recording_script.md").write_text(recording_script(cfg, sheet), encoding="utf-8")
 
-    L = ["# Build report", "", f"Stem: {cfg.rel(stem)}", f"Mix: {cfg.rel(mix)}",
+    if stems:
+        bed = ", ".join(k for k in ("music", "effects") if k in stems)
+        music_db = float(duck.get("MUSIC", 0.0))
+        background_note = (f"Background: stems (dialogue ducked under reads; {bed} "
+                           + (f"dipped {music_db:g} dB" if music_db < 0 else "untouched") + ")")
+    else:
+        background_note = "Background: the film's full mix, ducked under every read"
+    L = ["# Build report", "", f"Stem: {cfg.rel(stem)}", f"Mix: {cfg.rel(mix)}", background_note,
          f"Clips placed: {takes_used} recorded takes, {tts_used} synthetic (TTS)",
          f"Peak {stats_mix['peak_db']} dBFS, clipped samples: {stats_mix['clipped_samples']}", ""]
     if missing:
