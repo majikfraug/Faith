@@ -377,10 +377,14 @@ class CueSheet:
             new_line = " ".join(line.split())
             if new_line != c.line:
                 c.line = new_line
-                if c.measure in ("tts", "est"):
-                    c.measured_s, c.measure, c.fits = None, "", ""
                 if c.measure == "take":
-                    c.notes = (c.notes + "; " if c.notes else "") + "line changed after recording"
+                    # The recording no longer matches the words: set it aside (the file stays in work/takes)
+                    # so builds fall back to the synthetic voice until the line is re-recorded.
+                    c.notes = (c.notes + "; " if c.notes else "") + f"line changed after recording; take {c.clip} set aside, re-record"
+                    c.clip = ""
+                    if status is None and c.status == "recorded":
+                        c.status = "drafted"
+                c.measured_s, c.measure, c.fits = None, "", ""
             if status is None and c.status == "new":
                 c.status = "drafted"
         if status is not None:

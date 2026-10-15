@@ -88,9 +88,11 @@ If the narrator reads faster or slower than 2.5 words/second, change `timing.wps
 ## Recording and takes
 
 `out/recording_script.md` lists every line with its cue id, timecode and the maximum seconds. The narrator either
-records one file per cue (named by id) or one long pass with a pause of at least a second between lines, in order.
-`python ad.py takes --file takes/session1.wav --range 0:00-5:00` splits on silence, matches segments to cues in order,
-measures, and marks them `recorded`. If the segment count does not match, `out/takes_report.md` lists the segments;
+records one file per cue (named by id) or one long pass with a pause of at least two seconds between lines, in order.
+Clean the recording (plosives, clicks, noise) in the editor *before* importing: one long file is far quicker to
+clean than the split clips. `python ad.py takes --file takes/session1.wav --range 0:00-5:00` splits on silence,
+matches segments to cues in order, measures, and marks them `recorded`. Clips cleaned later go in
+`takes/clean/<id>.wav` and are re-imported with `python ad.py takes --dir takes/clean`. If the segment count does not match, `out/takes_report.md` lists the segments;
 ask the user which to drop or re-record, or write an order file (one cue id per segment, 0 to drop) and pass `--order`.
 
 ## Delivery

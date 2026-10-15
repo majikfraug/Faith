@@ -99,6 +99,20 @@ class SheetTests(unittest.TestCase):
             self.assertEqual(sheet.by_id(1).status, "skip")
             self.assertEqual(len(sheet.select(rng="0:00-0:10")), 2)
 
+    def test_line_change_sets_recorded_take_aside(self):
+        with tempfile.TemporaryDirectory() as td:
+            sheet = self._sheet(td)
+            c = sheet.by_id(1)
+            c.line, c.status, c.clip, c.measured_s, c.measure = "A man walks.", "recorded", "work/takes/0001.wav", 1.2, "take"
+            c.recompute_fit()
+            sheet.set(1, line="A man walks away.")
+            self.assertEqual(c.status, "drafted")
+            self.assertEqual(c.clip, "")
+            self.assertEqual(c.measure, "")
+            self.assertIn("re-record", c.notes)
+            sheet.set(1, line="A man walks away.")  # same words again: nothing else changes
+            self.assertEqual(c.status, "drafted")
+
     def test_fit_states(self):
         c = Cue(1, "DESC", 0.0, 3.0, 3.4)
         c.measured_s = 2.9; c.recompute_fit(); self.assertEqual(c.fits, "yes")

@@ -45,8 +45,8 @@
   {"new": true, "type": "DESC", "start": "3:42.0", "end": "3:50.5",
    "line": "Villagers walk toward a blue building, a llama beside them. Women in wide skirts and hats walk a dirt road.", "status": "drafted",
    "notes": "Present-day footage; 3:48 dancers in red also visible"},
-  {"new": true, "type": "DESC", "start": "3:51.0", "end": "3:58.6",
-   "line": "From inside a van on a mountain road. Then an old photo: a smiling man in a flowered shirt holds a cassette player.", "status": "drafted",
+  {"new": true, "type": "DESC", "start": "3:49.5", "end": "3:58.6",
+   "line": "A van climbs a winding mountain road, hills passing the window. Then an old photo: a smiling man in a flowered shirt holds a cassette player.", "status": "drafted",
    "notes": "Van 3:51-3:58; the photo appears at 4:00 under the next speaker; the man in it is not named yet"},
 
   {"id": 27, "status": "skip", "notes": "English speech (Morgan Jackson, language check en 0.98); no read needed"},
