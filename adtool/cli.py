@@ -272,12 +272,21 @@ def cmd_cues_apply(args) -> int:
 def cmd_cues_export(args) -> int:
     cfg = C.load()
     sheet = _load_sheet(cfg)
+    from .report import script_cues, script_docx, script_text
     cues = sheet.select(args.range) if args.range else sheet.cues
-    md = sheet.script_markdown(cues)
     out = Path(args.out) if args.out else cfg.out / "script.md"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(md, encoding="utf-8")
-    print(f"wrote {cfg.rel(out)} ({sum(1 for c in cues if c.status != 'skip')} lines)")
+    ext = out.suffix.lower()
+    if ext == ".docx":
+        script_docx(cfg, sheet, out, cues, include_new=args.all)
+        n = len(script_cues(cues, args.all))
+    elif ext == ".txt":
+        out.write_text(script_text(cfg, sheet, cues, include_new=args.all), encoding="utf-8-sig")  # BOM: Notepad-safe
+        n = len(script_cues(cues, args.all))
+    else:
+        out.write_text(sheet.script_markdown(cues), encoding="utf-8")
+        n = sum(1 for c in cues if c.status != "skip")
+    print(f"wrote {cfg.rel(out)} ({n} lines)")
     return 0
 
 
@@ -460,8 +469,9 @@ def build_parser() -> argparse.ArgumentParser:
     s = cs.add_parser("apply", help="apply a drafts JSON file")
     s.add_argument("file")
     s.set_defaults(fn=cmd_cues_apply)
-    s = cs.add_parser("export", help="write the script as markdown")
-    s.add_argument("--range"); s.add_argument("--out")
+    s = cs.add_parser("export", help="write the script: .md (default), or a reading copy as .txt or .docx")
+    s.add_argument("--range"); s.add_argument("--out", help="file to write; .docx = Word, .txt = plain text, else markdown")
+    s.add_argument("--all", action="store_true", help="in .txt/.docx also include lines not yet drafted")
     s.set_defaults(fn=cmd_cues_export)
 
     s = sub.add_parser("gaps", help="show speech and gaps in a time range")

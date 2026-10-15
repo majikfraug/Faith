@@ -1,0 +1,29 @@
+[
+  {"id": 306, "line": "Old video: a man reads.", "status": "drafted", "notes": "25:12-25:15 canyon aerial, then 25:18-25:36 archive video: a man in a white shirt reads from a book, Peruvian flag beside him (same man as the 1990 home video); he reads Mark 10:45"},
+  {"id": 307, "status": "drafted", "notes": "Spanish (archive, the man reading); burned-in subtitle 25:15-25:21; verbatim"},
+  {"id": 308, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 309, "status": "drafted", "notes": "Spanish; verbatim (scripture reference read exactly)"},
+  {"id": 310, "status": "drafted", "notes": "Spanish; verbatim (quotation marks not spoken)"},
+  {"id": 311, "status": "drafted", "notes": "Spanish; verbatim"},
+
+  {"id": 325, "line": "Photo: a young couple seated.", "status": "drafted", "notes": "26:39-26:42 old photo of a young blonde woman and a young Peruvian man in white against a wall; Morgan has just said Rómulo met the Jacksons' daughter and married her, but the film names neither in the photo"},
+  {"id": 330, "line": "A jungle river from above.", "status": "drafted", "notes": "27:03 aerial of rainforest and river; Donna (English) about Pucallpa"},
+
+  {"id": 343, "line": "Family photo: a couple, four small children. Qori Sauñe, Rómulo's third born, speaks.", "status": "drafted",
+   "notes": "28:00-28:06 photo of a man in a dark vest and a woman in a white hat with a baby and three girls in pink skirts; 28:09 caption QORI SAUÑE / RÓMULO'S THIRD BORN / DOCTOR; she speaks English from 28:06"},
+  {"id": 352, "line": "The old video again.", "status": "drafted", "notes": "28:36-28:39 dry hills, then at 28:39 the archive video of the man at the desk reading a paper (Spanish, subtitled)"},
+  {"id": 353, "status": "drafted", "notes": "Spanish (archive, the man reading a paper); burned-in subtitle 28:39; verbatim; parentheses spoken as an aside"},
+  {"id": 354, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 355, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 356, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 357, "status": "skip", "notes": "1.1s window; a page of the Quechua Bible (Psalm 23) under the next read"},
+  {"id": 358, "status": "drafted", "notes": "Spanish (Alfredo Fajardo); burned-in subtitle 29:00-29:05; verbatim"},
+  {"id": 359, "status": "skip", "notes": "English speech (Donna; no burned-in subtitle 29:06-29:18 despite the language check) - confirm by ear"},
+  {"id": 360, "status": "skip", "notes": "English speech (Donna; no burned-in subtitle); no read needed"},
+  {"id": 361, "status": "skip", "notes": "1.1s window; hillside town; boxes labelled 'runa simi - Materiales Quechua' appear at 29:21 under Qori's English speech, with no gap to read them"},
+  {"id": 366, "status": "skip", "notes": "English speech (Qori; no burned-in subtitle 29:43-29:49 despite the language check); no read needed"},
+  {"id": 367, "status": "skip", "notes": "1.1s window; women in hats by a lake, then Samuel's read follows"},
+  {"id": 368, "status": "drafted", "notes": "Spanish (Samuel Saccsara); burned-in subtitle 29:50-29:54; verbatim"},
+  {"id": 369, "status": "drafted", "notes": "Spanish; burned-in subtitle 29:55-29:57; verbatim"},
+  {"id": 370, "line": "Four people cross a dusty field toward adobe houses.", "status": "drafted", "notes": "29:54-30:03 the Runa Simi team walks across a dry village square with cameras"}
+]

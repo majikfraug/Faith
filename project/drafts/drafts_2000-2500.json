@@ -1,0 +1,39 @@
+[
+  {"id": 229, "status": "drafted", "notes": "Spanish (the man in the 1990 home video); burned-in subtitle 20:03-20:05, though the language check lumped it with Kusi's English; verbatim"},
+  {"id": 230, "status": "drafted", "notes": "Spanish (home video); burned-in subtitle 20:07-20:08; verbatim"},
+
+  {"id": 239, "line": "A tomb set in a brick wall.", "status": "drafted", "notes": "20:30-20:36 a grave in a brick niche with dry grass; Kusi (English) has just described the killing of her great-grandfather"},
+
+  {"id": 240, "status": "drafted", "notes": "Spanish (home video voice over the tomb and the photo of the two men); burned-in subtitle 20:37-20:40; verbatim"},
+  {"id": 241, "status": "drafted", "notes": "Spanish; burned-in subtitles 20:41-20:46; verbatim"},
+  {"id": 242, "status": "drafted", "notes": "Spanish; burned-in subtitle 20:47-20:50; verbatim"},
+  {"id": 243, "status": "drafted", "notes": "Spanish; burned-in subtitle 20:55-20:57; verbatim"},
+  {"id": 244, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 245, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 246, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 247, "status": "drafted", "notes": "Spanish; verbatim"},
+
+  {"id": 248, "line": "An old family photo.", "status": "drafted", "notes": "21:09-21:12 the photo of the man in a white shirt, the bearded old man with a baby, and a boy (seen at 19:30)"},
+  {"id": 249, "status": "drafted", "notes": "Spanish (Alfredo Fajardo, by the lake); burned-in subtitle 21:12; verbatim"},
+  {"id": 250, "status": "drafted", "notes": "Spanish; burned-in subtitle 21:15; verbatim"},
+  {"id": 251, "line": "Old family photo. Donna speaks.", "status": "drafted", "notes": "21:18-21:24 photo: an old man in a hat, a young man, a blonde woman holding a baby, a woman in a red shawl. Donna (English) from 21:22"},
+
+  {"new": true, "type": "TEXT", "start": "21:46.0", "end": "21:47.1", "source_text": "CHOSICA, PERU", "line": "Chosica, Peru.", "status": "drafted",
+   "notes": "Title 21:45-21:50 over a hillside town; only a 1.2s pause in Donna's speech (21:45.9-21:47.2), so no tag"},
+
+  {"id": 267, "type": "TEXT", "source_text": "AYACUCHO, PERU", "line": "Title: Ayacucho, Peru.", "status": "drafted", "notes": "Title 22:27-22:31 over a church tower; Pablo (English) from 22:28"},
+  {"id": 278, "line": "An old group photo.", "status": "drafted", "notes": "23:27-23:33 family group in front of an adobe wall; Kusi (English) from 23:29"},
+  {"id": 285, "type": "TEXT", "source_text": "LIMA, PERU", "line": "Title: Lima, Peru. Waves along a coast road.", "status": "drafted", "notes": "Title 23:57-24:03 over an aerial of the Lima coast; Samuel (Spanish) from 24:01"},
+
+  {"id": 286, "status": "drafted", "notes": "Spanish (Samuel Saccsara); burned-in subtitle 24:01-24:04; verbatim"},
+  {"id": 287, "status": "drafted", "notes": "Spanish; verbatim (quotation marks not spoken)"},
+  {"id": 288, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 289, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 290, "status": "drafted", "notes": "Spanish; verbatim; over a 1990 home video of the house"},
+  {"id": 291, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 292, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 293, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 294, "status": "skip", "notes": "English speech (Kusi Saccsara; no burned-in subtitle 24:36-24:47); no read needed"},
+  {"id": 295, "status": "skip", "notes": "English speech (Kusi); no read needed"},
+  {"id": 296, "status": "skip", "notes": "English speech (Kusi); no read needed"}
+]

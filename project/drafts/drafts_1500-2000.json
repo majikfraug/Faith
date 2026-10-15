@@ -1,0 +1,61 @@
+[
+  {"id": 174, "status": "drafted", "notes": "Spanish (Samuel Saccsara); burned-in subtitle at 15:21 - the language check lumped it with Morgan's English; verbatim"},
+  {"id": 175, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 176, "status": "drafted", "notes": "Spanish; verbatim (photo of Abimael Guzmán on screen)"},
+  {"id": 177, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 178, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 179, "status": "skip", "notes": "English speech (Morgan Jackson; no burned-in subtitle 15:44-15:56); no read needed"},
+  {"id": 180, "status": "skip", "notes": "English speech (Morgan Jackson; no burned-in subtitle); no read needed"},
+  {"id": 181, "status": "skip", "notes": "English speech (Morgan Jackson; no burned-in subtitle); no read needed"},
+  {"id": 182, "status": "drafted", "notes": "Spanish (Samuel, voice over a street scene; burned-in subtitle 15:57); verbatim"},
+  {"id": 183, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 184, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 185, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 186, "status": "drafted", "notes": "Spanish; verbatim"},
+
+  {"id": 187, "type": "TEXT", "source_text": "AYACUCHO, PERU",
+   "line": "Title: Ayacucho, Peru. A bronze rider on a rearing horse, high on a plinth.", "status": "drafted",
+   "notes": "Title 16:24-16:28 over church towers; equestrian statue 16:30-16:34; Morgan (English) resumes 16:32"},
+  {"id": 189, "line": "A cathedral on a broad square.", "status": "drafted", "notes": "16:36 Ayacucho's cathedral and plaza"},
+  {"id": 192, "line": "The cathedral's twin towers; flags over the square.", "status": "drafted", "notes": "16:48-16:51 cathedral facade with flags; Samuel resumes at 16:55"},
+  {"id": 193, "status": "drafted", "notes": "Spanish (Samuel); verbatim; the quotation marks around Yankees are not spoken"},
+  {"id": 194, "status": "drafted", "notes": "Spanish; verbatim"},
+
+  {"id": 195, "line": "A man in a blue T-shirt and a young blonde woman sit on a stone wall. Caption: Pablo Saccsara, Runa Simi, Rómulo's son-in-law.", "status": "drafted",
+   "notes": "17:03 view through a window of a village (left out); 17:09 an older woman in a hat (left out); 17:15 the couple; caption 17:18-17:22. The woman is captioned later (19:21) as Kusi Saccsara, so not named here"},
+
+  {"id": 196, "status": "skip", "notes": "English speech (Pablo Saccsara; no burned-in subtitle 17:14-17:26, despite the language check saying Spanish) - confirm by ear"},
+  {"id": 197, "status": "skip", "notes": "English speech (Pablo Saccsara; no burned-in subtitle) - confirm by ear"},
+  {"id": 198, "line": "As the Shining Path advanced, the Peruvian army started to counteract this with a lot of strength.", "status": "drafted",
+   "notes": "Spanish (Samuel, 17:27-17:35); line is the burned-in subtitle, which differs from the .srt wording; cue 199 folded in"},
+  {"id": 199, "status": "skip", "notes": "Folded into cue 198 (one on-screen sentence)"},
+
+  {"id": 200, "line": "Flames under a cooking pot.", "status": "drafted", "notes": "17:36-17:43 fire; Morgan (English) 17:38-17:45"},
+
+  {"id": 201, "status": "skip", "notes": "English speech (Morgan Jackson; no burned-in subtitle); no read needed"},
+  {"id": 202, "line": "They demanded to kill their animals for them to be fed.", "status": "drafted",
+   "notes": "Spanish voice over hands butchering meat; burned-in subtitle 17:44-17:48 (the .srt has an auto-transcript paraphrase instead)"},
+  {"id": 203, "line": "And they said, \"If you don't want to do that, then we'll just kill them all and kill you as well.\"", "status": "drafted",
+   "notes": "Spanish voice; burned-in subtitle 17:49-17:54 (the .srt has an auto-transcript paraphrase instead)"},
+  {"id": 204, "status": "skip", "notes": "English speech (Morgan Jackson); no read needed"},
+  {"id": 205, "status": "skip", "notes": "English speech (Morgan Jackson); no read needed"},
+  {"id": 206, "status": "skip", "notes": "English speech (Morgan Jackson); no read needed"},
+  {"id": 207, "status": "skip", "notes": "1.1s window; dark rafters, nothing worth a word"},
+
+  {"id": 216, "line": "A stone farmhouse among green fields.", "status": "drafted", "notes": "18:45-18:49; Samuel (Spanish) resumes 18:50"},
+  {"id": 217, "status": "drafted", "notes": "Spanish (Samuel); verbatim"},
+  {"id": 218, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 219, "status": "drafted", "notes": "Spanish; verbatim"},
+
+  {"id": 221, "line": "Kusi Saccsara, Rómulo's second born, speaks.", "status": "drafted",
+   "notes": "Window 19:16-19:20 (street under Ayacucho's red arch, left out); Kusi speaks English from 19:20 and her caption 'Runa Simi / Rómulo's second born' appears 19:21-19:27. She is the young blonde woman of 17:15"},
+
+  {"new": true, "type": "DESC", "start": "19:32.4", "end": "19:33.6", "line": "Home video, 1990.", "status": "drafted",
+   "notes": "1.2s pause between Kusi (English) and the archive clip; camcorder date DEC 19 90 on screen 19:33; a man in a white T-shirt points at framed photos. Not named by the film here"},
+
+  {"id": 224, "line": "One of the first believers was my grandpa.", "status": "drafted", "notes": "Spanish (man in the 1990 home video); burned-in subtitle 19:33-19:36"},
+  {"id": 225, "line": "He accepted the Lord, and he started sharing the gospel with the family.", "status": "drafted", "notes": "Spanish; burned-in subtitles 19:37-19:42"},
+  {"id": 226, "line": "The whole tribe, Quicaña tribe.", "status": "drafted", "notes": "Spanish; burned-in subtitle 19:44-19:46"},
+  {"id": 227, "line": "Everybody in the Quechua family", "status": "drafted", "notes": "Spanish; burned-in subtitle 19:52-19:53"},
+  {"id": 228, "line": "who came from... his descendants, we are believers.", "status": "drafted", "notes": "Spanish; burned-in subtitles 19:55-19:59 ('descendents' on screen)"}
+]

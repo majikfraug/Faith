@@ -1,0 +1,50 @@
+[
+  {"id": 61, "line": "This Bible was translated, by Rómulo and others, many years ago,", "status": "drafted", "notes": "Spanish (Alfredo Fajardo, named on screen at 8:12); verbatim, brackets spoken as an aside"},
+  {"id": 62, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 63, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 64, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 65, "line": "For this, he contacted Hosanna, FCBH, his brother Morgan Jackson.", "status": "drafted", "notes": "Spanish; verbatim, parentheses spoken as an aside"},
+  {"id": 66, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 67, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 68, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 69, "status": "drafted", "notes": "Spanish; verbatim"},
+
+  {"id": 79, "type": "TEXT", "source_text": "JAIME ALMEIDA / DIRECTOR, ILMAV",
+   "line": "Caption: Jaime Almeida, Director, ILMAV.", "status": "drafted",
+   "notes": "Jaime's caption is at 7:00 over his own speech (English, 7:06-7:51); this is the first gap after it. The place title CHAKIQPAMPA, PERU appears at 7:54 but the next subtitle read says the place name, so the caption takes the gap. ILMAV: letters or word? user to confirm"},
+
+  {"id": 80, "status": "drafted", "notes": "Spanish (Alfredo Fajardo); verbatim; language check es 0.79, confirm by ear"},
+  {"id": 81, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 82, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 83, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 84, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 85, "status": "drafted", "notes": "Spanish; verbatim; language check es 0.83"},
+
+  {"id": 86, "type": "TEXT", "source_text": "ALFREDO FAJARDO / DISCIPLESHIP, FCBH DISTRIBUTION / RUNA SIMI",
+   "line": "Caption: Alfredo Fajardo, Runa Simi.", "status": "drafted",
+   "notes": "Caption at 8:12 over his Spanish speech; read in the first gap after it (aerial of a lake). Role line shortened to fit 2.8s; he appears to be the preacher from 1:21 - user to confirm"},
+
+  {"id": 87, "status": "drafted", "notes": "Spanish; verbatim; language check es 0.72, confirm by ear"},
+  {"id": 88, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 89, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 90, "status": "drafted", "notes": "Spanish; verbatim"},
+  {"id": 91, "status": "drafted", "notes": "Spanish; verbatim"},
+
+  {"id": 92, "type": "TEXT", "source_text": "SAMUEL SACCSARA / DISCIPLESHIP, PASTORAL TRAINING / RUNA SIMI",
+   "line": "Caption: Samuel Saccsara, Runa Simi.", "status": "drafted",
+   "notes": "His caption appears at 9:00, 3s after he starts speaking (Spanish/Quechua); read in the gap just before. Role line shortened to fit 3.0s"},
+
+  {"id": 93, "line": "I knew Romulo since we were very young.", "status": "drafted", "notes": "Samuel Saccsara; .srt text is Spanish, English read from the burned-in subtitle at 8:57"},
+  {"id": 94, "line": "I saw that he was very different than other young people his age.", "status": "drafted", "notes": "English read from the burned-in subtitle at 9:00"},
+  {"id": 95, "line": "He was a person who was always smiling, very kind to the Quechua.", "status": "drafted", "notes": "English read from the burned-in subtitles at 9:06 and 9:09"},
+  {"id": 96, "line": "And I could see how much that he loved the Quechuas.", "status": "drafted", "notes": "English read from the burned-in subtitle at 9:12"},
+
+  {"id": 97, "type": "TEXT", "source_text": "CUZCO, PERU", "end": "9:17.0", "line": "Cuzco, Peru.", "status": "drafted",
+   "notes": "Title on screen 9:15-9:21 over an aerial of the city; window extended to 9:17.0 (cue 98 is skipped English speech starting 9:17.3); no tag, 1.7s"},
+
+  {"id": 98, "status": "skip", "notes": "English speech (Romi Sauñe, over the Cuzco aerial; language block straddles Samuel's Spanish and Romi's English) - confirm by ear"},
+
+  {"id": 108, "type": "TEXT", "source_text": "ROMI SAUÑE / RÓMULO'S FIRST BORN / LAWYER",
+   "line": "Romi Sauñe, Rómulo's first born.", "status": "drafted",
+   "notes": "Caption at 9:24 over his English speech (9:21-9:57); read in the first gap after it (Cuzco aerial). 'Caption:' and 'lawyer' dropped to fit 2.6s"}
+]

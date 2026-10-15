@@ -4,6 +4,7 @@ soundfile>=0.12
 Pillow>=10.1
 faster-whisper>=1.1      # bundles the Silero voice-activity model (no GPU, no download for VAD)
 edge-tts>=6.1            # free neural voice for fit checks and draft tracks (needs internet)
+python-docx>=1.1         # reading script as a Word file (cues export --out script.docx)
 
 # Optional
 # static-ffmpeg          # if you cannot install ffmpeg any other way: pip install static-ffmpeg

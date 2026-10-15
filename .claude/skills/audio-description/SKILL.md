@@ -26,7 +26,8 @@ All commands run from the project root as `python ad.py ...` (Windows: `py ad.py
 | ingest | `python ad.py ingest` | `work/media.json`, `work/subtitles.json`, `work/speech.json` (voice map) |
 | cue windows | `python ad.py cues build` | `project/cues.csv` (keeps existing lines on rebuild; `--force` discards) |
 | look at a range | `python ad.py frames --range 0:00-5:00` | storyboard sheets, per-window strips, `work/packets/packet_*.md` |
-| edit cues | `python ad.py cues set/add/split/merge/skip/apply/show/export` | updated cue sheet |
+| edit cues | `python ad.py cues set/add/split/merge/skip/apply/show` | updated cue sheet |
+| reading script | `python ad.py cues export --out out/script.docx` (or `.txt`; `--range`, `--all`) | the script for reading |
 | where speech is | `python ad.py gaps --range 1:00-1:30` | speech and gap listing |
 | fit check | `python ad.py fit --range 0:00-5:00` | measured seconds, `out/fit_report.md` |
 | review package | `python ad.py build` | `out/stem.wav`, `out/mix_review.wav`, `out/review.mp4`, `out/markers_audition.csv`, scripts |
