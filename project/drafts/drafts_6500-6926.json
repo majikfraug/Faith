@@ -1,0 +1,285 @@
+[
+ {
+  "id": 846,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 847,
+  "start": "1:05:05.15",
+  "end": "1:05:07.0",
+  "line": "Jaime.",
+  "status": "drafted",
+  "notes": "Jaime (English) from 1:05:07.1; heard within three minutes."
+ },
+ {
+  "id": 848,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime)"
+ },
+ {
+  "id": 849,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime)"
+ },
+ {
+  "id": 850,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime)"
+ },
+ {
+  "id": 851,
+  "start": "1:05:19.0",
+  "end": "1:05:26.5",
+  "line": "Boys kick a football on a dry field. Girls in wide-brimmed hats laugh, holding hands.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "1:05:30.5",
+  "end": "1:05:35.5",
+  "line": "Villagers lean in around a Proclaimer on a rock.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "1:05:37.5",
+  "end": "1:05:42.0",
+  "line": "A small boy throws up his arms and grins. Donna Sauñe.",
+  "status": "drafted",
+  "notes": "Donna (English) from 1:05:42.1; last heard 1:01:21."
+ },
+ {
+  "id": 852,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 853,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 854,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 855,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 856,
+  "start": "1:05:54.25",
+  "end": "1:05:56.6",
+  "line": "Alfredo by a lake. Morgan.",
+  "status": "drafted",
+  "notes": "Morgan (English) from 1:05:56.6."
+ },
+ {
+  "id": 857,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 858,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 859,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 860,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 861,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 862,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "1:06:23.0",
+  "end": "1:06:28.0",
+  "line": "Sunlight breaks over dark mountain ridges.",
+  "status": "drafted",
+  "notes": "Unsubtitled sound 1:06:21-1:06:35 (singing?). Narrator to confirm describing over it."
+ },
+ {
+  "id": 863,
+  "start": "1:06:35.8",
+  "end": "1:06:37.5",
+  "line": "Alfredo Fajardo.",
+  "status": "drafted",
+  "notes": "Assumed speaker of 864-868 (he gestures on screen at 1:06:42). Confirm."
+ },
+ {
+  "id": 864,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 865,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 866,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 867,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 868,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 869,
+  "start": "1:06:54.0",
+  "end": "1:06:59.5",
+  "line": "The valley, framed by wooden posts. Alfredo, in shadow.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "id": 870,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 871,
+  "status": "drafted",
+  "source_text": "Rómulo lives forever.",
+  "line": "Rómulo lives forever.",
+  "notes": "On-screen subtitle builds word by word (Rómulo / Rómulo lives / Rómulo lives forever.); read once as the finished line."
+ },
+ {
+  "id": 872,
+  "start": "1:07:09.6",
+  "end": "1:07:14.2",
+  "line": "A turquoise screen above a band of bright woven cloth. Title: The Voice of Rómulo.",
+  "status": "drafted",
+  "notes": "End credits 1:07:09-1:09:26, music only.",
+  "type": "TEXT",
+  "source_text": "The Voice of RÓMULO"
+ },
+ {
+  "new": true,
+  "type": "TEXT",
+  "start": "1:07:14.8",
+  "end": "1:07:26.8",
+  "line": "Faith Comes By Hearing now provides Scripture in thousands of languages. More than one billion people still don't have access to Scripture in a language and format they understand.",
+  "status": "drafted",
+  "notes": "",
+  "source_text": "Faith Comes By Hearing now provides Scripture in thousands of languages. More than one billion people still don't have access to Scripture in a language and format they understand."
+ },
+ {
+  "new": true,
+  "type": "TEXT",
+  "start": "1:07:27.3",
+  "end": "1:07:41.0",
+  "line": "A Faith Comes By Hearing film, in partnership with Runa Simi. Filmed on location in Peru.",
+  "status": "drafted",
+  "notes": "",
+  "source_text": "A Faith Comes By Hearing film, in partnership with Runa Simi. Filmed on location in Peru."
+ },
+ {
+  "new": true,
+  "type": "TEXT",
+  "start": "1:07:41.8",
+  "end": "1:07:47.8",
+  "line": "Directed by David Ferry Junior. Written by Matthew Evans and David Ferry Junior.",
+  "status": "drafted",
+  "notes": "",
+  "source_text": "Directed by David Ferry Junior. Written by Matthew Evans and David Ferry Junior."
+ },
+ {
+  "new": true,
+  "type": "TEXT",
+  "start": "1:07:48.2",
+  "end": "1:07:59.8",
+  "line": "Cinematography: Isaac Garcia and Matthew Evans. Edited by David Ferry Junior. Executive producer: Susan Olguin.",
+  "status": "drafted",
+  "notes": "",
+  "source_text": "Cinematography: Isaac Garcia and Matthew Evans. Edited by David Ferry Junior. Executive producer: Susan Olguin."
+ },
+ {
+  "new": true,
+  "type": "TEXT",
+  "start": "1:08:00.2",
+  "end": "1:08:08.8",
+  "line": "Produced by David Ferry Junior, Felipe Casaneuva and Matthew Evans. Co-producer and behind the scenes: Seriah Getty-Evans.",
+  "status": "drafted",
+  "notes": "Screen spells this credit 'Casaneuva'; the translators credit spells it 'Casanueva'.",
+  "source_text": "Produced by David Ferry Junior, Felipe Casaneuva and Matthew Evans. Co-producer and behind the scenes: Seriah Getty-Evans."
+ },
+ {
+  "new": true,
+  "type": "TEXT",
+  "start": "1:08:09.2",
+  "end": "1:08:26.0",
+  "line": "Assistant editor: Luke Padilla. Additional camera: Zach Fisk and Seriah Getty-Evans. Colorist: Tyler Sawicki. Translators: Kusi Saccsara and Felipe Casanueva. Title design: Kameron Elder. Consultants: Roy Cañada and Andres Casanueva.",
+  "status": "drafted",
+  "notes": "Three cards 1:08:09-1:08:18; the read runs into the start of the special-thanks scroll.",
+  "source_text": "Assistant editor: Luke Padilla. Additional camera: Zach Fisk and Seriah Getty-Evans. Colorist: Tyler Sawicki. Translators: Kusi Saccsara and Felipe Casanueva. Title design: Kameron Elder. Consultants: Roy Cañada and Andres Casanueva."
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "1:08:27.0",
+  "end": "1:08:40.0",
+  "line": "Special thanks scroll up the screen: Runa Simi, Donna Sauñe, the Saccsara and Sauñe families, and many more names, ending with the Quechua people.",
+  "status": "drafted",
+  "notes": "38 entries scroll 1:08:21-1:08:50; summarised. Full list: Runa Simi; Donna Sauñe; Pablo & Kusi Saccsara Family; Samuel & Rosa Saccsara; Qori Sauñe & Joey Charles; Tawa Sauñe; Romi Sauñe; Alfredo Fajardo; Daniel Porter; Morgan Jackson; Clay Jackson; Thuy Jackson; Jerry Jackson; Roy Cañada; Andres Casanueva; ILMAV; AIDIA; Luis Cervantes; Michelle Stelter; Steven Luke Padilla; Jeremy Dodge; Ryan Ayd; Lynn Bachman; Nathan Fulcher; Janet Lloyd; Michael Taylor; Angel Dubois; Nate Hall; Shelly Johnson; Elisha Montano; Mel Morris; Wendy Martin-Strength; Dave Parton; Lori Koch; TJ Burek; Wycliffe Bible Translators; Katie, Jackson, Willow & Finnegan Ferry; The Quechua People."
+ },
+ {
+  "new": true,
+  "type": "TEXT",
+  "start": "1:08:44.5",
+  "end": "1:08:58.5",
+  "line": "Original Quechua songs provided by Runa Simi. Music licensed through Musicbed. Shining Path stock image provided by Wikimedia Commons. Archival footage and photos provided by the Sauñe family. Filmed on Canon cameras.",
+  "status": "drafted",
+  "notes": "",
+  "source_text": "Original Quechua songs provided by Runa Simi. Music licensed through Musicbed. Shining Path stock image provided by Wikimedia Commons. Archival footage and photos provided by the Sauñe family. Filmed on Canon cameras."
+ },
+ {
+  "new": true,
+  "type": "TEXT",
+  "start": "1:09:02.2",
+  "end": "1:09:11.8",
+  "line": "For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many. Mark 10:45.",
+  "status": "drafted",
+  "notes": "",
+  "source_text": "For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many. Mark 10:45."
+ },
+ {
+  "new": true,
+  "type": "TEXT",
+  "start": "1:09:13.5",
+  "end": "1:09:22.5",
+  "line": "Faith Comes By Hearing. To learn more, visit Faith Comes By Hearing dot com.",
+  "status": "drafted",
+  "notes": "On screen: FaithComesByHearing.com",
+  "source_text": "Faith Comes By Hearing. To learn more, visit Faith Comes By Hearing dot com."
+ }
+]

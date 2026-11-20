@@ -1,15 +1,351 @@
 [
-  {"id": 784, "line": "Dusk over the town, its lights coming on. A lake from above, clouds mirrored in it.", "status": "drafted", "notes": "59:58-60:03 Chosica at dusk; 60:06-60:15 aerials of a lake and its dry shore; Morgan (English) from 60:07"},
-  {"id": 791, "line": "Musicians with guitars on the village square. A small guitar against the sky.", "status": "drafted", "notes": "60:39 musicians; 60:42-60:46 a charango held up to the sky; Donna (English) from 60:48"},
-  {"id": 798, "status": "skip", "notes": "1.9s window between Donna's sentences"},
-  {"id": 801, "line": "Old photo: a blonde woman and a man in a woven vest with three children in tasselled hats. Alfredo talks with villagers. Jaime Almeida speaks.", "status": "drafted",
-   "notes": "61:24-61:30 family photo (not named by the film here); 61:33 Alfredo with villagers; 61:36 Samuel; 61:39 Jaime Almeida (purple polo, captioned at 7:00) speaks English from 61:32"},
-  {"id": 816, "line": "Villagers climb a hillside path. A girl in red and a white dog by a stream. Kusi speaks.", "status": "drafted", "notes": "62:42 villagers on a path; 62:45 the girl and dog; 62:48 Kusi backlit, speaking English"},
-  {"id": 820, "line": "The photo of three men.", "status": "drafted", "notes": "63:00-63:05 the photo of two men and a woman in hats with Rómulo (seen at 39:57); then a Spanish read at 63:03"},
-  {"id": 821, "status": "drafted", "notes": "Spanish; burned-in subtitle 63:03-63:07 over the photo and a young man in a grey hoodie on the square (speaker not captioned; the bulk language check lumped this with Qori's English); verbatim"},
-  {"id": 822, "status": "drafted", "notes": "Spanish (Samuel Saccsara, shown 63:09); burned-in subtitles 63:09-63:14; verbatim"},
-  {"id": 823, "status": "drafted", "notes": "Spanish (Samuel); burned-in subtitle 63:15; verbatim"},
-  {"id": 828, "line": "Kusi with children in costume in a green field.", "status": "drafted", "notes": "63:42-63:45; then Pablo and Kusi (English) from 63:45"},
-  {"id": 831, "status": "skip", "notes": "1.1s window; Samuel laughing with Kusi"},
-  {"id": 843, "line": "Old photo: young men with guitars, and a young blonde woman with a guitar.", "status": "drafted", "notes": "64:48-64:51; Morgan (English) from 64:52. The blonde woman is presumably Donna, young - not named by the film"}
+ {
+  "id": 784,
+  "start": "59:59.0",
+  "end": "1:00:07.3",
+  "line": "The sun sets behind mountains. Lights come on in a town at dusk.",
+  "status": "drafted",
+  "notes": "Morgan continues at 1:00:07.4 (same speaker)."
+ },
+ {
+  "id": 785,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 786,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 787,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 788,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 789,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 790,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 791,
+  "start": "1:00:41.5",
+  "end": "1:00:48.8",
+  "line": "Men gather with guitars. A hand rests on a guitar's tuning pegs. Donna Sauñe.",
+  "status": "drafted",
+  "notes": "Donna (English) from 1:00:48.9; last heard 54:33."
+ },
+ {
+  "id": 792,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 793,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 794,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 795,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 796,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 797,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 798,
+  "status": "skip",
+  "notes": "pause inside Donna's speech"
+ },
+ {
+  "id": 799,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 800,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Donna)"
+ },
+ {
+  "id": 801,
+  "start": "1:01:25.0",
+  "end": "1:01:32.3",
+  "line": "A family photo: Rómulo, Donna and their four children. Jaime Almeida.",
+  "status": "drafted",
+  "notes": "Same photo as 28:00. Jaime (accented English) from 1:01:32.4; last heard about 7:00."
+ },
+ {
+  "id": 802,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 803,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 804,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 805,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 806,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 807,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 808,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 809,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 810,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 811,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 812,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 813,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 814,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 815,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 816,
+  "start": "1:02:40.4",
+  "end": "1:02:48.2",
+  "line": "Women climb a hill, arms raised. A girl in red herds cattle past a pond. Kusi Saccsara.",
+  "status": "drafted",
+  "notes": "Kusi (English) from 1:02:48.3."
+ },
+ {
+  "id": 817,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 818,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 819,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 820,
+  "start": "1:03:00.3",
+  "end": "1:03:03.9",
+  "line": "A photo of three seated men, the one in the middle smiling.",
+  "status": "drafted",
+  "notes": "Same photo as 40:00. Is the middle man Rómulo? Who speaks 821?"
+ },
+ {
+  "id": 821,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 822,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 823,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "1:03:18.6",
+  "end": "1:03:20.2",
+  "line": "Qori Sauñe.",
+  "status": "drafted",
+  "notes": "Qori (English) from 1:03:20.3; last heard 51:23."
+ },
+ {
+  "id": 824,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 825,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 826,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 827,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 828,
+  "start": "1:03:41.35",
+  "end": "1:03:45.2",
+  "line": "Older footage: children dance in a line. Pablo Saccsara.",
+  "status": "drafted",
+  "notes": "Pablo (English) from 1:03:45.3; last heard 58:52."
+ },
+ {
+  "id": 829,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 830,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 831,
+  "status": "skip",
+  "notes": "same speaker continues"
+ },
+ {
+  "id": 832,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 833,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 834,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 835,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "1:04:19.4",
+  "end": "1:04:21.0",
+  "line": "Qori.",
+  "status": "drafted",
+  "notes": "Qori (English) from 1:04:21.1."
+ },
+ {
+  "id": 836,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 837,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 838,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 839,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 840,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 841,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 842,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Qori)"
+ },
+ {
+  "id": 843,
+  "start": "1:04:48.3",
+  "end": "1:04:52.4",
+  "line": "A photo of guitarists. Morgan Jackson.",
+  "status": "drafted",
+  "notes": "Photo: three young men and a blond woman with guitars. Morgan (English) from 1:04:52.5."
+ },
+ {
+  "id": 844,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 845,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ }
 ]

@@ -1,29 +1,356 @@
 [
-  {"id": 737, "line": "A stage hung with bunting.", "status": "drafted", "notes": "55:12-55:15 an outdoor stage with coloured flags, people gathering; Pablo (English) from 55:13"},
-  {"id": 741, "line": "Old footage: panpipes and guitars.", "status": "drafted", "notes": "55:24-55:27 archive of musicians in traditional dress"},
-  {"id": 742, "status": "skip", "notes": "English speech (Pablo/Kusi; no burned-in subtitle 55:27-55:35; the language check said 'fi' because of the music); no read needed"},
-  {"id": 743, "status": "skip", "notes": "English speech; no read needed"},
-  {"id": 744, "status": "skip", "notes": "English speech; no read needed"},
-  {"id": 745, "line": "The festival, at night.", "status": "drafted", "notes": "55:33-55:39 the stage at night, musicians, seated audience"},
-  {"id": 748, "line": "Night. A fire. Young women in black dresses with embroidered skirts spin as they dance. A flute, panpipes, a keyboard; Samuel claps along; a woman in a flowered hat plays a small guitar.", "status": "drafted",
-   "notes": "55:45 fire; 55:48-55:57 dancers; 56:00 an older woman watching; 56:03 flute at a mic; 56:06 Samuel clapping; 56:09-56:12 panpipes, keyboard; 56:15 audience; 56:18 woman with a charango. Music under"},
-  {"id": 749, "line": "A drum is struck. Samuel speaks.", "status": "drafted", "notes": "56:21 a hand beats a drum; Samuel's Spanish read at 56:25"},
-  {"id": 750, "status": "drafted", "notes": "Spanish (Samuel Saccsara); burned-in subtitle 56:24; verbatim"},
-  {"id": 751, "line": "Dancers in red.", "status": "drafted", "notes": "56:27-56:30"},
-  {"id": 752, "status": "drafted", "notes": "Spanish; burned-in subtitle 56:30; verbatim"},
-  {"id": 753, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 754, "status": "drafted", "notes": "Spanish; verbatim; over two women in hats laughing"},
-  {"id": 755, "line": "Children in bright costumes and tasselled hats dance in the courtyard.", "status": "drafted", "notes": "56:39-56:45"},
-  {"id": 756, "status": "drafted", "notes": "Spanish (Samuel, playing a charango at a mic); burned-in subtitle 56:45; verbatim"},
-  {"id": 757, "status": "drafted", "notes": "Spanish; verbatim; over a boy in a purple costume, Samuel laughing with a woman in a hat"},
-  {"id": 758, "line": "Daytime, a park by the river: families picnic, a boy rides a seesaw.", "status": "drafted", "notes": "56:57-57:03; Kusi (English) from 57:04 about the baptism"},
-  {"id": 760, "line": "A man in a poncho talks with a boy.", "status": "drafted", "notes": "57:12 a man in a red poncho seated with a boy; Kusi (English) from 57:13"},
-  {"id": 767, "line": "The family walks down past a green house toward the river; the boy in a white T-shirt leads.", "status": "drafted", "notes": "57:48-57:57; Kusi then says he is Rómulo's first grandson (57:56, English)"},
-  {"id": 770, "line": "In the river, a man in white and Samuel in his striped poncho lower the boy backward into the water and lift him out, dripping. On the bank the crowd watches. Samuel raises both hands. A woman in a flowered hat hugs the boy. The river from above.", "status": "drafted",
-   "notes": "58:00-58:03 Pablo walking; 58:06-58:36 the baptism; 58:39 the hug; 58:42-58:45 aerial of the river; music under. Pablo (English) from 58:46"},
-  {"id": 773, "line": "The river rushes over rocks. The family crosses the square and climbs a lane between stone walls. Then the tomb.", "status": "drafted",
-   "notes": "58:54-58:57 rapids; 59:00-59:09 the family from a white van across the square and up a lane; 59:12 the tomb with crosses; Morgan (English) from 59:09"},
-  {"id": 777, "line": "Rómulo Sauñe Quicaña, 1953 to 1992.", "status": "drafted", "type": "TEXT", "source_text": "ROMULO SAUÑE QUICAÑA  N: 17-01-1953  F: 05-09-1992",
-   "notes": "The tomb plaque is shown 59:18-59:21 under Morgan's speech; this is the first gap after it (2.4s), so only name and years"},
-  {"id": 781, "line": "A little girl runs across a dry field to a woman in a hat. An old group photo.", "status": "drafted", "notes": "59:42-59:45 the girl; 59:48-59:51 a group photo with a blonde woman and men in chullos; Morgan (English) from 59:49"}
+ {
+  "id": 733,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 734,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 735,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 736,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 737,
+  "start": "55:10.7",
+  "end": "55:13.6",
+  "line": "A stage hung with paper flags. Pablo.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "id": 738,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 739,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 740,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 741,
+  "start": "55:23.35",
+  "end": "55:26.8",
+  "line": "Older footage: youths play guitar and panpipes.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "id": 742,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo and Kusi)"
+ },
+ {
+  "id": 743,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo and Kusi)"
+ },
+ {
+  "id": 744,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo and Kusi)"
+ },
+ {
+  "id": 745,
+  "status": "skip",
+  "notes": "stage and audience; same speakers continue"
+ },
+ {
+  "id": 746,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 747,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 748,
+  "start": "55:46.0",
+  "end": "55:53.0",
+  "line": "Night. A bonfire burns. Young women in black dance, embroidered skirts swirling.",
+  "status": "drafted",
+  "notes": "Festival at night 55:45-56:56; music throughout."
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "56:02.0",
+  "end": "56:08.0",
+  "line": "Musicians play flute, panpipes and keyboard. Samuel claps along.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "56:13.5",
+  "end": "56:19.5",
+  "line": "Families watch, smiling. A woman in a flowered hat plays a mandolin.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "id": 749,
+  "start": "56:20.3",
+  "end": "56:24.7",
+  "line": "A hand beats a drum. Samuel Saccsara.",
+  "status": "drafted",
+  "notes": "Samuel (subtitled) from 56:24.8; last heard 35:21."
+ },
+ {
+  "id": 750,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 751,
+  "start": "56:26.6",
+  "end": "56:29.9",
+  "line": "Dancers in red spin.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "id": 752,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 753,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 754,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 755,
+  "start": "56:39.3",
+  "end": "56:46.6",
+  "line": "Dancers in red cross a lawn. Children in bright costumes and pom-pom hats line up.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "id": 756,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 757,
+  "status": "drafted",
+  "notes": "verbatim subtitle (on screen)"
+ },
+ {
+  "id": 758,
+  "start": "56:56.5",
+  "end": "57:04.3",
+  "line": "Daytime. Families gather on a lawn; a boy rides a seesaw. Pablo.",
+  "status": "drafted",
+  "notes": "English voice 'During the Raymi, we also have the baptism time' assumed Pablo. Confirm."
+ },
+ {
+  "id": 759,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo?)"
+ },
+ {
+  "id": 760,
+  "start": "57:09.9",
+  "end": "57:13.8",
+  "line": "A group huddles in prayer. Kusi.",
+  "status": "drafted",
+  "notes": "English voice 'We're going down to the river to baptize' assumed Kusi (on screen 57:21). Confirm."
+ },
+ {
+  "id": 761,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 762,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 763,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 764,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 765,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 766,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Kusi)"
+ },
+ {
+  "id": 767,
+  "start": "57:47.2",
+  "end": "57:56.6",
+  "line": "The group walks down steps past a green house, along a path to a river. Pablo.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "id": 768,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 769,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 770,
+  "start": "58:06.0",
+  "end": "58:11.5",
+  "line": "In a rushing river, Pablo and Samuel stand with Pablo and Kusi's son, a teenager in a white T-shirt.",
+  "status": "drafted",
+  "notes": "Baptism 58:06-58:40. The boy is 'Rómulo's first grandson' (58:00); not named in the film."
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "58:12.5",
+  "end": "58:17.5",
+  "line": "They lower him under the water. He rises, wiping his face.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "58:21.0",
+  "end": "58:26.5",
+  "line": "Samuel smiles. On the bank, Pablo embraces his son.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "58:31.5",
+  "end": "58:36.0",
+  "line": "In the river, another man raises his arms beside Samuel.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "58:38.5",
+  "end": "58:43.5",
+  "line": "Wrapped in a green towel, the boy is hugged by a woman.",
+  "status": "drafted",
+  "notes": "Who is the woman at 58:39?"
+ },
+ {
+  "id": 771,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 772,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Pablo)"
+ },
+ {
+  "id": 773,
+  "start": "58:53.0",
+  "end": "58:56.5",
+  "line": "The river rushes over rocks.",
+  "status": "drafted",
+  "notes": ""
+ },
+ {
+  "new": true,
+  "type": "DESC",
+  "start": "58:59.3",
+  "end": "59:09.7",
+  "line": "Pablo, Kusi and their boys climb a stone path to the white tomb. A plaque: Rómulo Sauñe Quicaña, 1953 to 1992. Morgan Jackson.",
+  "status": "drafted",
+  "notes": "Plaque (59:18, during Morgan's English) reads ROMULO SAUÑE QUICAÑA N-17-01-1953 F-05-09-1992; given before he speaks."
+ },
+ {
+  "id": 774,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 775,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 776,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 777,
+  "status": "skip",
+  "notes": "photos during a pause in Morgan's speech"
+ },
+ {
+  "id": 778,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 779,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 780,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 781,
+  "start": "59:42.0",
+  "end": "59:49.0",
+  "line": "A girl runs across a dry field. A group photo: villagers in woven vests, a blond woman kneeling in front.",
+  "status": "drafted",
+  "notes": "Is the blond woman Donna, and is Rómulo in the photo?"
+ },
+ {
+  "id": 782,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ },
+ {
+  "id": 783,
+  "status": "skip",
+  "notes": "English speech, original voice plays (Morgan)"
+ }
 ]

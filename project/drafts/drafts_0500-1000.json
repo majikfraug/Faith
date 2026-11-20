@@ -1,50 +1,349 @@
 [
-  {"id": 61, "line": "This Bible was translated, by Rómulo and others, many years ago,", "status": "drafted", "notes": "Spanish (Alfredo Fajardo, named on screen at 8:12); verbatim, brackets spoken as an aside"},
-  {"id": 62, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 63, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 64, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 65, "line": "For this, he contacted Hosanna, FCBH, his brother Morgan Jackson.", "status": "drafted", "notes": "Spanish; verbatim, parentheses spoken as an aside"},
-  {"id": 66, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 67, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 68, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 69, "status": "drafted", "notes": "Spanish; verbatim"},
-
-  {"id": 79, "type": "TEXT", "source_text": "JAIME ALMEIDA / DIRECTOR, ILMAV",
-   "line": "Caption: Jaime Almeida, Director, ILMAV.", "status": "drafted",
-   "notes": "Jaime's caption is at 7:00 over his own speech (English, 7:06-7:51); this is the first gap after it. The place title CHAKIQPAMPA, PERU appears at 7:54 but the next subtitle read says the place name, so the caption takes the gap. ILMAV: letters or word? user to confirm"},
-
-  {"id": 80, "status": "drafted", "notes": "Spanish (Alfredo Fajardo); verbatim; language check es 0.79, confirm by ear"},
-  {"id": 81, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 82, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 83, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 84, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 85, "status": "drafted", "notes": "Spanish; verbatim; language check es 0.83"},
-
-  {"id": 86, "type": "TEXT", "source_text": "ALFREDO FAJARDO / DISCIPLESHIP, FCBH DISTRIBUTION / RUNA SIMI",
-   "line": "Caption: Alfredo Fajardo, Runa Simi.", "status": "drafted",
-   "notes": "Caption at 8:12 over his Spanish speech; read in the first gap after it (aerial of a lake). Role line shortened to fit 2.8s; he appears to be the preacher from 1:21 - user to confirm"},
-
-  {"id": 87, "status": "drafted", "notes": "Spanish; verbatim; language check es 0.72, confirm by ear"},
-  {"id": 88, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 89, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 90, "status": "drafted", "notes": "Spanish; verbatim"},
-  {"id": 91, "status": "drafted", "notes": "Spanish; verbatim"},
-
-  {"id": 92, "type": "TEXT", "source_text": "SAMUEL SACCSARA / DISCIPLESHIP, PASTORAL TRAINING / RUNA SIMI",
-   "line": "Caption: Samuel Saccsara, Runa Simi.", "status": "drafted",
-   "notes": "His caption appears at 9:00, 3s after he starts speaking (Spanish/Quechua); read in the gap just before. Role line shortened to fit 3.0s"},
-
-  {"id": 93, "line": "I knew Romulo since we were very young.", "status": "drafted", "notes": "Samuel Saccsara; .srt text is Spanish, English read from the burned-in subtitle at 8:57"},
-  {"id": 94, "line": "I saw that he was very different than other young people his age.", "status": "drafted", "notes": "English read from the burned-in subtitle at 9:00"},
-  {"id": 95, "line": "He was a person who was always smiling, very kind to the Quechua.", "status": "drafted", "notes": "English read from the burned-in subtitles at 9:06 and 9:09"},
-  {"id": 96, "line": "And I could see how much that he loved the Quechuas.", "status": "drafted", "notes": "English read from the burned-in subtitle at 9:12"},
-
-  {"id": 97, "type": "TEXT", "source_text": "CUZCO, PERU", "end": "9:17.0", "line": "Cuzco, Peru.", "status": "drafted",
-   "notes": "Title on screen 9:15-9:21 over an aerial of the city; window extended to 9:17.0 (cue 98 is skipped English speech starting 9:17.3); no tag, 1.7s"},
-
-  {"id": 98, "status": "skip", "notes": "English speech (Romi Sauñe, over the Cuzco aerial; language block straddles Samuel's Spanish and Romi's English) - confirm by ear"},
-
-  {"id": 108, "type": "TEXT", "source_text": "ROMI SAUÑE / RÓMULO'S FIRST BORN / LAWYER",
-   "line": "Romi Sauñe, Rómulo's first born.", "status": "drafted",
-   "notes": "Caption at 9:24 over his English speech (9:21-9:57); read in the first gap after it (Cuzco aerial). 'Caption:' and 'lawyer' dropped to fit 2.6s"}
+ {
+  "id": 42,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 43,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 44,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 45,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 46,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 47,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 48,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 49,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 50,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 51,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 52,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 53,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 54,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 55,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 56,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 57,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 58,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 59,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 60,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Morgan Jackson / Donna Sauñe)"
+ },
+ {
+  "id": 68,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 69,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 70,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 71,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 72,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 73,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 74,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 75,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 76,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 77,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 78,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Jaime Almeida)"
+ },
+ {
+  "id": 98,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 99,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 100,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 101,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 102,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 103,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 104,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 105,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 106,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 107,
+  "status": "skip",
+  "notes": "English speech, no subtitle on screen; original voice plays (Romi Sauñe)"
+ },
+ {
+  "id": 61,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 62,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 63,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 64,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 65,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 66,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 67,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 80,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 81,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 82,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 83,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 84,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 85,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 87,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 88,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 89,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 90,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 91,
+  "status": "drafted",
+  "notes": "verbatim subtitle"
+ },
+ {
+  "id": 93,
+  "line": "I knew Rómulo since we were very young.",
+  "status": "drafted",
+  "notes": "verbatim on-screen English subtitle (the transcript file has the Spanish for this cue)"
+ },
+ {
+  "id": 94,
+  "line": "I saw that he was very different than other young people his age.",
+  "status": "drafted",
+  "notes": "verbatim on-screen English subtitle (the transcript file has the Spanish for this cue)"
+ },
+ {
+  "id": 95,
+  "line": "He was a person who was always smiling, very kind to the Quechua.",
+  "status": "drafted",
+  "notes": "verbatim on-screen English subtitle (the transcript file has the Spanish for this cue)"
+ },
+ {
+  "id": 96,
+  "line": "And I could see how much that he loved the Quechuas.",
+  "status": "drafted",
+  "notes": "verbatim on-screen English subtitle (the transcript file has the Spanish for this cue)"
+ },
+ {
+  "id": 79,
+  "line": "A deep river canyon. Caption: Chakiqpampa, Peru.",
+  "status": "drafted",
+  "notes": "Caption on screen 7:53-7:58."
+ },
+ {
+  "id": 86,
+  "line": "The speaker: Alfredo Fajardo, Runa Simi.",
+  "status": "drafted",
+  "notes": "Full caption at 8:12 (during his speech): ALFREDO FAJARDO, DISCIPLESHIP, FCBH DISTRIBUTION, RUNA SIMI. Shortened to fit the first gap."
+ },
+ {
+  "id": 92,
+  "line": "Samuel Saccsara, Pastoral Training, Runa Simi.",
+  "status": "drafted",
+  "notes": "Introduces the next speaker before he starts (8:56.7). Full caption at 9:00: SAMUEL SACCSARA, DISCIPLESHIP, PASTORAL TRAINING, RUNA SIMI. On screen here: older footage of young men with a guitar."
+ },
+ {
+  "id": 97,
+  "type": "TEXT",
+  "end": "9:17.1",
+  "source_text": "CUZCO, PERU",
+  "line": "Cuzco, Peru.",
+  "status": "drafted",
+  "notes": "Caption over an aerial view of the city, 9:15-9:21. Window extended to the real start of speech (9:17.3)."
+ },
+ {
+  "id": 108,
+  "line": "Romi Sauñe, Rómulo's first born, a lawyer.",
+  "status": "drafted",
+  "notes": "Caption at 9:24 (during his speech): ROMI SAUÑE, RÓMULO'S FIRST BORN / LAWYER. First usable gap is here, over an aerial view of Cuzco."
+ }
 ]

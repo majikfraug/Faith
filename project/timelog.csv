@@ -1,0 +1,176 @@
+time,event,session,phase,until,text
+2026-11-18T09:49:00-07:00,manual,adtool,setup,2026-11-18T09:50:00-07:00,"/ad-setup (logged by hand: session opened from S:\Romulo, hook not active)"
+2026-11-18T09:53:31-07:00,start,b03e0c8d,,,
+2026-11-18T09:53:44-07:00,prompt,b03e0c8d,,,/ad-ingest
+2026-11-18T09:54:05-07:00,stop,b03e0c8d,,,
+2026-11-18T09:56:15-07:00,prompt,b03e0c8d,,,/ad-cues
+2026-11-18T09:56:38-07:00,stop,b03e0c8d,,,
+2026-11-18T09:58:37-07:00,prompt,b03e0c8d,,,"The speeck at 27 seconds is in Quechua, so a description of the scene can be placed here."
+2026-11-18T09:59:13-07:00,stop,b03e0c8d,,,
+2026-11-18T10:00:25-07:00,prompt,b03e0c8d,,,it is also Quechua
+2026-11-18T10:00:32-07:00,stop,b03e0c8d,,,
+2026-11-18T10:03:09-07:00,prompt,b03e0c8d,,,/ad-draft
+2026-11-18T10:09:24-07:00,stop,b03e0c8d,,,
+2026-11-18T10:18:57-07:00,prompt,b03e0c8d,,,"1. yes 2, yes, lets add a short mention at end of 877, description, No name has been given 3. stone ruins 4. it is Romulo and family. Just give description 5. Q"
+2026-11-18T10:20:52-07:00,stop,b03e0c8d,,,
+2026-11-18T10:22:11-07:00,prompt,b03e0c8d,,,/ad-build
+2026-11-18T10:32:07-07:00,stop,b03e0c8d,,,
+2026-11-18T10:38:31-07:00,prompt,b03e0c8d,,,I do not want the subtitled portions amended. Read the subtitles directly
+2026-11-18T10:39:11-07:00,stop,b03e0c8d,,,
+2026-11-18T10:40:42-07:00,prompt,b03e0c8d,,,"at 01:55, skip the description. Instead- People sit in the grass around a proclaimer"
+2026-11-18T10:40:57-07:00,stop,b03e0c8d,,,
+2026-11-18T10:41:47-07:00,prompt,b03e0c8d,,,"at 2:05, skip the description"
+2026-11-18T10:41:50-07:00,stop,b03e0c8d,,,
+2026-11-18T10:43:27-07:00,prompt,b03e0c8d,,,at 03:17 children bottle feed a llama
+2026-11-18T10:43:43-07:00,stop,b03e0c8d,,,
+2026-11-18T10:44:55-07:00,prompt,b03e0c8d,,,can we get Morgan Jackson caption a little closer to when he starts speaking?
+2026-11-18T10:45:02-07:00,stop,b03e0c8d,,,
+2026-11-18T10:47:22-07:00,prompt,b03e0c8d,,,/ad-draft 5:00-10:00
+2026-11-18T10:48:11-07:00,prompt,b03e0c8d,,,Is it better to run this in Fable or Opus or Sonnett?
+2026-11-18T10:48:19-07:00,stop,b03e0c8d,,,
+2026-11-18T10:48:55-07:00,prompt,b03e0c8d,,,continue
+2026-11-18T10:52:51-07:00,stop,b03e0c8d,,,
+2026-11-18T11:09:29-07:00,prompt,b03e0c8d,,,"1. yes 2. yes 3.Skip 79, see if you can fit name and title for 86 at 07:51. At 08:53 see if we can fit the full title before the subtitles start, there is a gap"
+2026-11-18T11:10:53-07:00,stop,b03e0c8d,,,
+2026-11-18T11:12:47-07:00,prompt,b03e0c8d,,,"Alfredo's title (86): the full caption, with ""FCBH Distribution"", takes 5.3 seconds and the gap is 3.6, so I dropped that part. Tell me if you'd rather keep ""FC"
+2026-11-18T11:13:10-07:00,stop,b03e0c8d,,,
+2026-11-18T11:14:13-07:00,prompt,b03e0c8d,,,Lets keep the FCBH Distribution and I will check with the filmmakers as to which should be kept
+2026-11-18T11:14:18-07:00,stop,b03e0c8d,,,
+2026-11-18T11:14:45-07:00,prompt,b03e0c8d,,,/ad-draft 10:00-15:00
+2026-11-18T11:16:38-07:00,stop,b03e0c8d,,,
+2026-11-18T11:26:01-07:00,prompt,b03e0c8d,,,stop timing for a fifteen minute lunch break
+2026-11-18T11:26:04-07:00,stop,b03e0c8d,,,
+2026-11-18T11:57:40-07:00,prompt,b03e0c8d,,,"1. Romi Suena 2. is Morgan Jackson. When the voices change, if there is room it would be possibly be helpful to Include just their name again. As sighted viewer"
+2026-11-18T12:01:05-07:00,stop,b03e0c8d,,,
+2026-11-18T12:04:41-07:00,prompt,b03e0c8d,,,"Yes, lets identify Morgan, even if it is 11 mseconds in"
+2026-11-18T12:04:53-07:00,stop,b03e0c8d,,,
+2026-11-18T12:05:54-07:00,prompt,b03e0c8d,,,/ad-build
+2026-11-18T12:13:21-07:00,stop,b03e0c8d,,,
+2026-11-18T13:18:23-07:00,prompt,b03e0c8d,,,Is it possible to start 880 A family in a kitchen at 3:31 and the family description at 3:34. A short pause between each description would be helpful. 5:09- Dah
+2026-11-18T13:18:24-07:00,start,b03e0c8d,,,
+2026-11-18T13:33:38-07:00,stop,b03e0c8d,,,
+2026-11-18T13:54:20-07:00,prompt,b03e0c8d,,,"1. Don't switch the track. we may just need a small work around. The english only sounds weird on Romulo 2. I think it should be high, but that is what google g"
+2026-11-18T14:01:44-07:00,stop,b03e0c8d,,,
+2026-11-18T14:10:31-07:00,prompt,b03e0c8d,,,at 7:51 Alfredo Fajardo is pronounce incorrectly with the multilingual accent and his title is proncounced with a spanish accent. We may need to switch to the E
+2026-11-18T14:23:08-07:00,stop,b03e0c8d,,,
+2026-11-18T14:28:47-07:00,prompt,b03e0c8d,,,Romyooloh Sahnyeh option 2 is the closest
+2026-11-18T14:29:11-07:00,stop,b03e0c8d,,,
+2026-11-18T14:31:34-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>b0ywfqgl6</task-id> <tool-use-id>toolu_01URYERaXfHnH1ozNwj9NJMk</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-18T14:33:16-07:00,stop,b03e0c8d,,,
+2026-11-18T14:34:35-07:00,prompt,b03e0c8d,,,"Still not right try Roh-moo-loh Sow-nyeh â€” a plain-text approximation for English Ava. Sow rhymes with cow, and ny sounds like the middle of canyon. Stress RO"
+2026-11-18T14:34:56-07:00,stop,b03e0c8d,,,
+2026-11-18T14:39:58-07:00,prompt,b03e0c8d,,,try this oneRohmooloh Sawnyeh
+2026-11-18T14:40:36-07:00,stop,b03e0c8d,,,
+2026-11-18T14:42:24-07:00,prompt,b03e0c8d,,,try Sownyee? the last name still isnt right
+2026-11-18T14:42:46-07:00,stop,b03e0c8d,,,
+2026-11-18T14:52:29-07:00,prompt,b03e0c8d,,,I think option three is the best
+2026-11-18T14:52:51-07:00,stop,b03e0c8d,,,
+2026-11-18T14:54:13-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>by7gamyx3</task-id> <tool-use-id>toolu_01VGHzP2KSUR34zpbwAknvJP</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-18T14:54:18-07:00,stop,b03e0c8d,,,
+2026-11-18T14:57:54-07:00,prompt,b03e0c8d,,,Alfredo Fajardo still sounds jerky.
+2026-11-18T14:58:19-07:00,stop,b03e0c8d,,,
+2026-11-18T15:00:13-07:00,prompt,b03e0c8d,,,"option 1, 2 or 5 all sound the same and work fine"
+2026-11-18T15:01:36-07:00,prompt,b03e0c8d,,,option 4 for Jaime
+2026-11-18T15:01:49-07:00,stop,b03e0c8d,,,
+2026-11-18T15:02:25-07:00,prompt,b03e0c8d,,,Go ahead with /ad-draft 15:00-20:00 next
+2026-11-18T15:03:39-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>bx1q5eyrx</task-id> <tool-use-id>toolu_01H2mVedVg4fLbiLMcLKGL5E</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-18T15:05:12-07:00,stop,b03e0c8d,,,
+2026-11-19T07:43:15-07:00,prompt,b03e0c8d,,,1 Morgan Jackson 2. Pablo 3. Pablo 4. That is Romulo speaking of his grandfather Justiniano 5. Leave it as is
+2026-11-19T07:43:48-07:00,stop,b03e0c8d,,,
+2026-11-19T07:44:23-07:00,prompt,b03e0c8d,,,/ad-draft 20:00-25:00
+2026-11-19T07:46:07-07:00,stop,b03e0c8d,,,
+2026-11-19T07:56:25-07:00,prompt,b03e0c8d,,,"1. correct 2. Kusi 3. Yes bearded man is Justiniano, Yes Romulo and Donna are in the second one. Give as much detail as will fit"
+2026-11-19T07:56:59-07:00,stop,b03e0c8d,,,
+2026-11-19T08:15:19-07:00,prompt,b03e0c8d,,,/ad-build
+2026-11-19T08:16:56-07:00,stop,b03e0c8d,,,
+2026-11-19T09:40:06-07:00,prompt,b03e0c8d,,,14:44 talking about terrorism in artificial cheerful voice. Is there a way to chang that? 15:27 UNiversity of San Cristobal-check pronunciation 16:12 Ayacucho n
+2026-11-19T09:40:07-07:00,start,b03e0c8d,,,
+2026-11-19T09:42:16-07:00,stop,b03e0c8d,,,
+2026-11-19T09:50:03-07:00,prompt,b03e0c8d,,,Ava version 2 sounds better. Let's not redo the whole 25 minutes yet. Lets try it for the next 5 minute chunk and see how it works? Try this spellinfg for San C
+2026-11-19T10:03:36-07:00,stop,b03e0c8d,,,
+2026-11-19T10:04:09-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>b7hpvo5b1</task-id> <tool-use-id>toolu_01DGYAc2K1MMTM28ytVrQcts</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-19T10:04:18-07:00,stop,b03e0c8d,,,
+2026-11-19T10:14:55-07:00,prompt,b03e0c8d,,,I need a visual guide to the different people. Can we find the clips where the face and name are shown together and put them on one jpage?
+2026-11-19T10:18:09-07:00,stop,b03e0c8d,,,
+2026-11-19T10:29:08-07:00,prompt,b03e0c8d,,,1. Romulo in both. He is reading a letter which is talking about him. 2. yes 3. yes 4 Alfred Fajardo 5. Qori 6. Samuel Sacsarra 7. Can you read the sign in Span
+2026-11-19T10:30:36-07:00,stop,b03e0c8d,,,
+2026-11-19T10:31:49-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>bzo3fhse0</task-id> <tool-use-id>toolu_01Mii4PB4utZz1KE4TUVEViC</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-19T10:31:57-07:00,stop,b03e0c8d,,,
+2026-11-19T10:43:52-07:00,prompt,b03e0c8d,,,27:05 a river winds with a long i 30:44 Tahwahtinsooyoo
+2026-11-19T10:44:17-07:00,stop,b03e0c8d,,,
+2026-11-19T10:46:28-07:00,prompt,b03e0c8d,,,It still says winds with a short i. Tahwah-tingsooyootry this spelling?
+2026-11-19T10:46:58-07:00,stop,b03e0c8d,,,
+2026-11-19T10:49:32-07:00,prompt,b03e0c8d,,,tawa 1 and winds 1
+2026-11-19T10:49:46-07:00,stop,b03e0c8d,,,
+2026-11-19T10:51:52-07:00,prompt,b03e0c8d,,,"Yes, the calmer voice seems better. Change the sign, the spanish is dreadful"
+2026-11-19T10:56:41-07:00,stop,b03e0c8d,,,
+2026-11-19T10:57:59-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>bdcpeh96v</task-id> <tool-use-id>toolu_01Lh6hqkUvQQW1X1QsUCQ3t3</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-19T10:58:18-07:00,stop,b03e0c8d,,,
+2026-11-19T11:03:02-07:00,prompt,b03e0c8d,,,/ad-draft 30:00-35:00
+2026-11-19T11:05:43-07:00,stop,b03e0c8d,,,
+2026-11-19T11:14:48-07:00,prompt,b03e0c8d,,,"Since the caption reads are both moving into reading subtitles, i don't think the spillover is a problem. 1. the voice is Romulo 2. The first one is not Romul, "
+2026-11-19T11:15:31-07:00,stop,b03e0c8d,,,
+2026-11-19T11:15:31-07:00,prompt,b03e0c8d,,,/ad-draft 35:00-40:00
+2026-11-19T11:17:31-07:00,stop,b03e0c8d,,,
+2026-11-19T11:45:45-07:00,prompt,b03e0c8d,,,"1 Romulo, Donna and 4 children/family 2 Yes 3. all Morgan"
+2026-11-19T11:46:13-07:00,stop,b03e0c8d,,,
+2026-11-19T11:47:20-07:00,prompt,b03e0c8d,,,/ad-build
+2026-11-19T11:47:26-07:00,stop,b03e0c8d,,,
+2026-11-19T11:48:46-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>bd8girfyy</task-id> <tool-use-id>toolu_01QMXD8QkxfShag8w5rB62xv</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-19T11:48:57-07:00,stop,b03e0c8d,,,
+2026-11-19T12:00:45-07:00,prompt,b03e0c8d,,,"34:15, I think it woul.d be clearer if Carmen's name and title were given before the subtitles are read. It is okay if they start a little later."
+2026-11-19T12:01:06-07:00,stop,b03e0c8d,,,
+2026-11-19T12:08:19-07:00,prompt,b03e0c8d,,,39:20 clothes dry on a wood fence
+2026-11-19T12:08:34-07:00,stop,b03e0c8d,,,
+2026-11-19T12:09:21-07:00,prompt,b03e0c8d,,,better to drop it. there is no signifigance
+2026-11-19T12:09:29-07:00,stop,b03e0c8d,,,
+2026-11-19T12:09:53-07:00,prompt,b03e0c8d,,,/ad-draft 40:00-45:00
+2026-11-19T12:12:13-07:00,stop,b03e0c8d,,,
+2026-11-19T12:26:39-07:00,prompt,b03e0c8d,,,"his full name, so ""Jesus"" elsewhere is said the English way. Jesus should always be pronounce Hesoos. 1. The man in the Black hat says that one line 2. Yes- the"
+2026-11-19T12:27:16-07:00,stop,b03e0c8d,,,
+2026-11-19T12:31:05-07:00,prompt,b03e0c8d,,,"We don't know who says the words. In this case it doesn't matter. No, if it is referring to Jesus Christ, the American way is correct. /ad-draft 45:00-50:00"
+2026-11-19T12:33:12-07:00,stop,b03e0c8d,,,
+2026-11-19T12:40:24-07:00,prompt,b03e0c8d,,,"1. Yes Romulo 2. yes- Donna is embraced in front of the casket 3. Not positive who is speaking, treat the same as in the start of the film"" 4. Yes Romulo 4 Alfr"
+2026-11-19T12:40:58-07:00,stop,b03e0c8d,,,
+2026-11-19T12:42:15-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>b1dua0pwn</task-id> <tool-use-id>toolu_011dUa3doWp5eBZFCY8RBFzg</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-19T12:42:29-07:00,stop,b03e0c8d,,,
+2026-11-19T12:50:02-07:00,prompt,b03e0c8d,,,"When we are bouncing back and forth between speakers, only use the first name. If the same person appears more than once every three minutes only use the first "
+2026-11-19T12:51:51-07:00,stop,b03e0c8d,,,
+2026-11-19T13:09:49-07:00,prompt,b03e0c8d,,,"40:52 Zahcdahroomi but the c is almost a back of throat sound. the first r is rolled, i don't know how to show that. 41:05 Pahmpa Mardcah Hesoos Cohndeh Gahleen"
+2026-11-19T13:10:44-07:00,stop,b03e0c8d,,,
+2026-11-19T13:16:35-07:00,prompt,b03e0c8d,,,"Let's try Hehsoos? Cohndeh with a long o, . It is trying to give Jesus a long e. Pampa Marca sound good. Saq 5 is the best"
+2026-11-19T13:17:22-07:00,stop,b03e0c8d,,,
+2026-11-19T13:18:19-07:00,prompt,b03e0c8d,,,Jesus 1
+2026-11-19T13:18:39-07:00,stop,b03e0c8d,,,
+2026-11-19T13:19:32-07:00,prompt,b03e0c8d,,,First name alone use 4
+2026-11-19T13:19:48-07:00,stop,b03e0c8d,,,
+2026-11-19T13:20:31-07:00,prompt,b03e0c8d,,,/ad-draft 50:00-55:00.
+2026-11-19T13:22:24-07:00,stop,b03e0c8d,,,
+2026-11-19T13:51:40-07:00,prompt,b03e0c8d,,,"1. Romi 2. Pablo 3. There is a voice, it is speaking accented english 4. Call it a charango"
+2026-11-19T13:52:06-07:00,stop,b03e0c8d,,,
+2026-11-19T13:52:06-07:00,prompt,b03e0c8d,,,/ad-draft 55:00-60:00
+2026-11-19T13:54:54-07:00,stop,b03e0c8d,,,
+2026-11-19T14:01:36-07:00,prompt,b03e0c8d,,,1. Pablo 2. Kusi 3. Don't know 4. Yes Donna and Romulo are in the photo 5. Not worth saying. /ad-build
+2026-11-19T14:02:05-07:00,stop,b03e0c8d,,,
+2026-11-19T14:03:25-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>bqd5c6sj1</task-id> <tool-use-id>toolu_013SHj2ENNxwAXTe2q1T28Mo</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-19T14:03:41-07:00,stop,b03e0c8d,,,
+2026-11-19T14:18:19-07:00,prompt,b03e0c8d,,,50:50 It is a Proclaimer- not audio player. 51:44 is Oscar Sanchez playing 53:32 is Pablo 53:47 is Kusi 57:59 Pablo should be announced a little closer to when 
+2026-11-19T14:21:21-07:00,prompt,b03e0c8d,,,resume
+2026-11-19T14:22:07-07:00,stop,b03e0c8d,,,
+2026-11-19T14:23:01-07:00,prompt,b03e0c8d,,,/ad-draft 60:00-65:00
+2026-11-19T14:25:01-07:00,stop,b03e0c8d,,,
+2026-11-19T14:34:24-07:00,prompt,b03e0c8d,,,1. Yes 2. Samuel is speaking. The man in the hoodie is Pablo 3. Yes Jaime starts speaking at 1:01:32 4. Yes Pablo 5. Yes. Donna At 770- Pablo is not in the Rive
+2026-11-19T14:38:56-07:00,stop,b03e0c8d,,,
+2026-11-19T14:44:27-07:00,prompt,b03e0c8d,,,1. yes Alfredo 2. descriptive audio can go over that section 3. I don't know yet. we will leave as is for the moment. /ad-build
+2026-11-19T14:44:47-07:00,stop,b03e0c8d,,,
+2026-11-19T14:46:05-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>byeqct7px</task-id> <tool-use-id>toolu_01Y8VGp2jpW7N4aQGczCpkwh</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-19T14:46:21-07:00,stop,b03e0c8d,,,
+2026-11-19T15:00:45-07:00,prompt,b03e0c8d,,,"1:01:32, move Jaime's intro . Can we give a one or two second pause? 1:02:43 women climb hill raise arms to camera, 1:03:04 Romulu between a man and a woman or "
+2026-11-19T15:01:26-07:00,stop,b03e0c8d,,,
+2026-11-20T07:12:31-07:00,prompt,b03e0c8d,,,"for 816 Lets leave the cattle out. Women climb a hill, one turns to raise her arms to the camera"
+2026-11-20T07:12:54-07:00,stop,b03e0c8d,,,
+2026-11-20T07:13:55-07:00,prompt,b03e0c8d,,,That is all. go ahead and rebuild
+2026-11-20T07:14:18-07:00,stop,b03e0c8d,,,
+2026-11-20T07:15:29-07:00,prompt,b03e0c8d,,,<task-notification> <task-id>b0wne9fjc</task-id> <tool-use-id>toolu_01AyCQqzWuCVoA6JekBZHNth</tool-use-id> <output-file>C:\Users\Ethomas\AppData\Local\Temp\clau
+2026-11-20T07:15:42-07:00,stop,b03e0c8d,,,
+2026-11-20T07:50:33-07:00,prompt,b03e0c8d,,,save
