@@ -37,6 +37,19 @@ for them to approve.
 - Explain in plain language, one step at a time. Show lines as tables with id, time, type and line.
 - When the user asks to save or share their work: `git add project ad.config.json`, commit with a short message, push.
 
+## Time log
+
+This run is timed to measure the whole process, first with the synthetic voice to a finished track, then with the
+narrator's recorded voice. Nobody keeps a log by hand: a hook (`.claude/hooks/timelog.py`) appends every message to
+`project/timelog.csv`, and `python ad.py timelog` adds the recording files in `takes/` and reports hours by phase.
+
+- When the user says they are starting or finishing something away from Claude ("starting to record", "done
+  watching", "starting the Audition mix"), acknowledge it in one line; the hook has already logged it.
+- When they tell you about time after the fact ("I recorded 1 to 3 yesterday"), add it:
+  `python ad.py timelog add --phase recording --start "2026-11-20 13:00" --end "15:00" --note "..."`.
+- When the synthetic version is finished and uploaded, run `python ad.py timelog note "synthetic done"`.
+- `/ad-time` shows the report. Never edit `project/timelog.csv` by hand.
+
 ## If something breaks
 
 - `python ad.py doctor` first. It names the missing piece and the next step.

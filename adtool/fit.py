@@ -28,7 +28,7 @@ def run_fit(cfg: Config, sheet: CueSheet, cues: Sequence[Cue], engine: Optional[
             c.measure = "est"
         else:
             try:
-                path, used = tts.synth(cfg, c.line, engine)
+                path, used = tts.synth(cfg, c.line, engine, at=c.start_s)
                 dur = tts.measure(path)
                 c.measure = "tts"
                 used_engine = used

@@ -65,6 +65,9 @@ DEFAULTS: Dict[str, Any] = {
         "say_rate": 175,                  # macOS words per minute
         "espeak_voice": "en-us",
         "espeak_rate": 160,
+        # How the synthetic voice should say names it gets wrong: {"Sauñe": "Sahn yeh"}. Applied only to what the
+        # voice is given, never to the script. Use plain lowercase syllables: CAPITALS are read as letters.
+        "say_as": {},
     },
     # stems_gain_db: trim applied to every stem when mixing from stems (a film master is usually limited,
     # so the raw stems can sum a little hotter than the finished mix).

@@ -13,5 +13,19 @@
       "Bash(git diff:*)",
       "Bash(git log:*)"
     ]
+  },
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "py .claude/hooks/timelog.py", "timeout": 10 } ] }
+    ],
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "py .claude/hooks/timelog.py", "timeout": 10 } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "py .claude/hooks/timelog.py", "timeout": 10 } ] }
+    ],
+    "SessionEnd": [
+      { "hooks": [ { "type": "command", "command": "py .claude/hooks/timelog.py", "timeout": 10 } ] }
+    ]
   }
 }

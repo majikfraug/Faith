@@ -395,6 +395,45 @@ def cmd_status(args) -> int:
     return 0
 
 
+def cmd_timelog(args) -> int:
+    from . import timelog as T
+    cfg = C.load()
+    action = getattr(args, "action", None) or "report"
+    if action == "note":
+        text = " ".join(args.text).strip()
+        if not text:
+            print("nothing to note")
+            return 1
+        T.append(cfg, "note", text)
+        print(f"noted at {T.now():%H:%M}: {text}")
+        return 0
+    if action == "add":
+        if args.phase not in T.LABEL:
+            print(f"unknown phase '{args.phase}'. Use one of: " + ", ".join(T.LABEL))
+            return 1
+        start = T.parse_when(args.start)
+        if args.end:
+            end = T.parse_when(args.end, ref=start)
+        elif args.minutes:
+            end = start + T.timedelta(minutes=float(args.minutes))
+        else:
+            print("give --end or --minutes")
+            return 1
+        if end <= start:
+            print("the end is before the start")
+            return 1
+        T.append(cfg, "manual", args.note or "", phase=args.phase, start=start, until=end)
+        print(f"added {T.LABEL[args.phase]}: {start:%Y-%m-%d %H:%M} to {end:%H:%M} ({T.hm((end - start).total_seconds() / 60)})")
+        return 0
+    res = T.analyse(cfg, idle_min=args.idle)
+    md = T.report(cfg, res)
+    cfg.out.mkdir(parents=True, exist_ok=True)
+    (cfg.out / "timelog.md").write_text(md, encoding="utf-8")
+    print(md)
+    print(f"report -> {cfg.rel(cfg.out / 'timelog.md')}")
+    return 0
+
+
 def cmd_tts_test(args) -> int:
     from . import tts
     cfg = C.load()
@@ -505,6 +544,17 @@ def build_parser() -> argparse.ArgumentParser:
 
     s = sub.add_parser("status", help="progress by 5-minute block and the next range to draft")
     s.set_defaults(fn=cmd_status)
+
+    s = sub.add_parser("timelog", help="hours spent so far, by phase, synthetic vs recorded voice (logged automatically)")
+    s.add_argument("--idle", type=int, default=30, help="minutes between messages that count as a break (default 30)")
+    s.set_defaults(fn=cmd_timelog, action="report")
+    ts = s.add_subparsers(dest="action")
+    t = ts.add_parser("note", help="add a note now, e.g. 'starting to record' or 'synthetic done'")
+    t.add_argument("text", nargs="+")
+    t = ts.add_parser("add", help="add time done without messages, e.g. a studio session")
+    t.add_argument("--phase", required=True); t.add_argument("--start", required=True, help="e.g. '2026-11-20 13:00'")
+    t.add_argument("--end", help="e.g. '15:10' (same day) or a full date and time"); t.add_argument("--minutes", type=float)
+    t.add_argument("--note")
 
     s = sub.add_parser("tts-test", help="synthesize a sample line and report the reading rate")
     s.add_argument("--engine"); s.add_argument("--text")

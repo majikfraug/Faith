@@ -8,4 +8,7 @@ Explain, in plain language and no more than a screen of text, how this project w
 5. `/ad-fit` checks timing.  6. `/ad-build` makes a review video to watch.  7. `/ad-review` polishes a range.
 8. Record from `out/recording_script.md`, then `/ad-place` to bring the takes in.  9. `/ad-build --final` for YouTube.
 
+Time is logged automatically from their messages and recording files; `/ad-time` shows how long each phase has taken.
+They only need to say "starting to record" / "done recording" (or watching, mixing) for work done away from Claude.
+
 Then run `python ad.py status` (or say it is not set up yet) and tell the user the single next command to type.

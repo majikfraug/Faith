@@ -63,6 +63,10 @@ Ids are stable. Time ranges are written `m:ss-m:ss` (e.g. `12:30-17:30`); id lis
 6. Write the drafts JSON (format is in the packet) to `project/drafts/drafts_<range>.json`, then `python ad.py cues apply <file>` and `python ad.py fit --range A-B`.
 7. For every line with `fits = no`: shorten it (adjectives first, then clauses, keep subject + verb), re-apply, re-fit. Up to three rounds; then leave a note on what still does not fit and tell the user.
 8. Update `project/glossary.md` (names, places, scripture references, pronunciations, how each person was first identified).
+   When the synthetic voice gets a name wrong, add a respelling to `tts.say_as` in `ad.config.json`
+   (`{"Sauñe": "Sahn yeh"}`): it changes only what the voice is given, never the script. Write it in plain lowercase
+   syllables separated by spaces: CAPITALS and hyphenated stress marks (ROH-moo-loh) are read out letter by letter.
+   Let the user hear it: `python ad.py tts-test --text "<a sentence with the name>"`.
 9. Report to the user: a table of the drafted lines (id, time, type, line), every uncertainty as a question (“Is the woman at 2:14 his wife Donna?”), and the next command.
 
 Guardrails: never place a line over speech; never invent names, relationships or intent; prefer one good line over three; do not run `cues build --force`; do not rewrite `cues.csv` with the Write tool.

@@ -4,6 +4,8 @@ argument-hint: [--final]
 ---
 Run `python ad.py build $ARGUMENTS`. If the user said "final", run `python ad.py build --final --no-tts` instead; before that, run `python ad.py status` and warn if any cue is still `new` or `drafted` or has fit `no` (a final should only contain recorded, approved lines).
 
+If the user wants the final in the synthetic voice ("synthetic final"), run `python ad.py build --final` without `--no-tts`: every line is voiced by the configured TTS voice, and recorded takes are used where they exist. Warn only about cues that are `new` or have fit `no`. Copy `out/final/youtube_descriptive_audio.wav` and `.m4a` to `out/final/synthetic/` so a later recorded-voice final does not overwrite them. When they have uploaded it, run `python ad.py timelog note "synthetic done"` so the time log knows where the synthetic version ends.
+
 Explain the outputs in one line each:
 - `out/review.mp4`: watch this; synthetic voice stands in for lines that have not been recorded.
 - `out/stem.wav`: the voice track alone, film length; in Audition, add it as a track at 0:00 in the multitrack session.

@@ -14,6 +14,7 @@ import hashlib
 import importlib.util
 import os
 import platform
+import re
 import shutil
 import subprocess
 import tempfile
@@ -73,10 +74,25 @@ def pick_engine(cfg: Config, requested: Optional[str] = None) -> str:
     return "none"
 
 
-def _voice_tag(cfg: Config, engine: str) -> str:
+def edge_opts(cfg: Config, at: Optional[float] = None) -> Tuple[str, str]:
+    """(rate, pitch) for the online voice. tts.trial = {"from_s": 1500, "rate": "-5%", "pitch": "-8Hz"}
+    overrides them for cues starting at or after from_s, so a new setting can be tried on part of the film."""
+    t = cfg.data.get("tts", {})
+    rate = t.get("rate") or "+0%"
+    pitch = t.get("pitch") or "+0Hz"
+    trial = t.get("trial") or {}
+    if trial and at is not None and at >= float(trial.get("from_s", 0)) and at < float(trial.get("to_s", 1e12)):
+        rate = trial.get("rate") or rate
+        pitch = trial.get("pitch") or pitch
+    return rate, pitch
+
+
+def _voice_tag(cfg: Config, engine: str, at: Optional[float] = None) -> str:
     t = cfg.data.get("tts", {})
     if engine == "edge":
-        return f"{t.get('voice')}|{t.get('rate')}"
+        rate, pitch = edge_opts(cfg, at)
+        tag = f"{t.get('voice')}|{rate}"
+        return tag if pitch == "+0Hz" else f"{tag}|{pitch}"  # unchanged key when pitch is default
     if engine == "sapi":
         return f"{t.get('sapi_voice')}|{t.get('sapi_rate')}"
     if engine == "say":
@@ -86,8 +102,8 @@ def _voice_tag(cfg: Config, engine: str) -> str:
     return ""
 
 
-def cache_path(cfg: Config, engine: str, text: str) -> Path:
-    key = hashlib.sha1(f"{engine}|{_voice_tag(cfg, engine)}|{text.strip()}".encode("utf-8")).hexdigest()[:20]
+def cache_path(cfg: Config, engine: str, text: str, at: Optional[float] = None) -> Path:
+    key = hashlib.sha1(f"{engine}|{_voice_tag(cfg, engine, at)}|{text.strip()}".encode("utf-8")).hexdigest()[:20]
     d = cfg.work / "tts"
     d.mkdir(parents=True, exist_ok=True)
     return d / f"{key}.wav"
@@ -100,15 +116,15 @@ def _run(cmd: List[str]) -> None:
         raise TTSError(f"{cmd[0]} failed: " + " | ".join(tail))
 
 
-def _edge(cfg: Config, text: str, raw: Path) -> None:
+def _edge(cfg: Config, text: str, raw: Path, at: Optional[float] = None) -> None:
     import edge_tts  # type: ignore
 
     voice = cfg.get("tts", "voice", default="en-US-AriaNeural")
-    rate = cfg.get("tts", "rate", default="+0%")
+    rate, pitch = edge_opts(cfg, at)
     proxy = os.environ.get("AD_TTS_PROXY") or None
 
     async def go():
-        kwargs = {"rate": rate}
+        kwargs = {"rate": rate, "pitch": pitch}
         if proxy:
             kwargs["proxy"] = proxy
         comm = edge_tts.Communicate(text, voice, **kwargs)
@@ -155,9 +171,19 @@ def _espeak(cfg: Config, text: str, raw: Path, txt: Path) -> None:
     _run([exe, "-v", voice, "-s", str(rate), "-w", str(raw), "-f", str(txt)])
 
 
-def synth(cfg: Config, text: str, engine: Optional[str] = None) -> Tuple[Path, str]:
-    """Synthesize text to a trimmed, normalized mono WAV at the project sample rate. Returns (path, engine)."""
-    text = " ".join(text.split())
+def apply_say_as(cfg: Config, text: str) -> str:
+    """Swap in the respellings from tts.say_as (whole words, any case, longest first)."""
+    table = cfg.get("tts", "say_as", default={}) or {}
+    for word in sorted(table, key=len, reverse=True):
+        if word.strip():
+            text = re.sub(r"(?<!\w)" + re.escape(word) + r"(?!\w)", lambda _m, s=str(table[word]): s, text, flags=re.IGNORECASE)
+    return text
+
+
+def synth(cfg: Config, text: str, engine: Optional[str] = None, at: Optional[float] = None) -> Tuple[Path, str]:
+    """Synthesize text to a trimmed, normalized mono WAV at the project sample rate. Returns (path, engine).
+    `at` is the cue's start in seconds; it only matters when tts.trial limits a setting to part of the film."""
+    text = apply_say_as(cfg, " ".join(text.split()))
     if not text:
         raise TTSError("nothing to say")
     chosen = pick_engine(cfg, engine)
@@ -166,7 +192,7 @@ def synth(cfg: Config, text: str, engine: Optional[str] = None) -> Tuple[Path, s
     auto = (engine or cfg.get("tts", "engine", default="auto")) == "auto"
     sr = int(cfg.get("audio", "sr", default=48000))
     while True:
-        dst = cache_path(cfg, chosen, text)
+        dst = cache_path(cfg, chosen, text, at)
         if dst.exists():
             return dst, chosen
         try:
@@ -176,7 +202,7 @@ def synth(cfg: Config, text: str, engine: Optional[str] = None) -> Tuple[Path, s
                 txt.write_text(text, encoding="utf-8")
                 if chosen == "edge":
                     raw = tdp / "raw.mp3"
-                    _edge(cfg, text, raw)
+                    _edge(cfg, text, raw, at)
                 elif chosen == "sapi":
                     raw = tdp / "raw.wav"
                     _sapi(cfg, text, raw, txt)

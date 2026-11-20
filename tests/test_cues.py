@@ -122,3 +122,14 @@ class SheetTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SayAsTests(unittest.TestCase):
+    def test_respelling_whole_words_only(self):
+        from adtool.tts import apply_say_as
+        with tempfile.TemporaryDirectory() as td:
+            cfg = cfg_in(td)
+            cfg.set({"Sauñe": "Sahn yeh", "Rómulo Sauñe": "Romulo Sahn yeh", "Paccha": "Pahk chah"}, "tts", "say_as")
+            self.assertEqual(apply_say_as(cfg, "Rómulo Sauñe and Donna Sauñe."), "Romulo Sahn yeh and Donna Sahn yeh.")
+            self.assertEqual(apply_say_as(cfg, "ROMULO SAUÑE QUICAÑA"), "ROMULO Sahn yeh QUICAÑA")
+            self.assertEqual(apply_say_as(cfg, "Pacchanga stays"), "Pacchanga stays")

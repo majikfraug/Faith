@@ -47,7 +47,7 @@ def build(cfg: Config, sheet: CueSheet, final: bool = False, allow_tts: bool = T
             takes_used += 1
         elif not tts_dead:
             try:
-                clip, _ = tts.synth(cfg, c.line, engine)
+                clip, _ = tts.synth(cfg, c.line, engine, at=c.start_s)
                 tts_used += 1
             except tts.TTSError as e:
                 print(f"  TTS unavailable ({e}); cues without takes will be left out")
